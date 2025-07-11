@@ -5,45 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="favicon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <title>Ethorizon>>以太视界</title>
 </head>
 <body>
     <div class="top-bar">
         <div class="tbe avatar">
-            <img src="https://imgur.la/images/2025/07/10/-17146cb75895a3ae1.th.png" alt="avatar">
+            <img src="favicon.ico" alt="avatar">
         </div>
         <div class="tbe function-zone">
             <div class="tbef home">
                 <i class="fas fa-house">
-                    <span>首页</span>
+                    <a href="index.html">首页</a>
                 </i>
             </div>
             <div class="tbef chest">
                 <i class="fas fa-globe">
-                    <span>百宝箱</span>
+                    <a href="chest.html">百宝箱</a>
                 </i>
             </div>
             <div class="tbef communication">
                 <i class="fas fa-comments">
-                    <span>交流</span>
+                    <a href="communication.html">交流</a>
                 </i>
             </div>
             <div class="tbef invidual">
                 <i class="fas fa-user">
-                    <span>个人</span>
+                    <a href="invidual.html">个人</a>
+                </i>
+            </div>
+            <div class="tbef about">
+                <i class="fas fa-tags">
+                    <a href="about.html">关于</a>
                 </i>
             </div>
         </div>
     </div>
     <div class="content">
         <div class="title">Ethorizon_CN</div>
+        <div class="contact">
+            <div class="cont github">
+                <a href="https://github.com/ethorizon-cn" target="_blank" title="Github">
+                    <i class="bi-github"></i>
+                </a>
+            </div>
+            <div class="cont qq">
+                <a href="https://qm.qq.com/q/gt48pry3l0" target="_blank" title="QQ">
+                    <i class="bi-tencent-qq"></i>
+                </a>
+            </div>
+            <div class="cont wechat">
+                <a href="wechat.jpg" target="_blank" title="微信-Wechat">
+                    <i class="bi-wechat"></i>
+                </a>
+            </div>
+            <div class="cont bilibili">
+                <a href="https://space.bilibili.com/3537121040140965" target="_blank" title="哔哩哔哩（B站）-Bilibili">
+                    <img src="Bilibili.png" alt="Bilibili" class="bilibili-icon">
+                </a>
+            </div>
+        </div>
     </div>
     <style>
         body{
-            background-image: url(https://imgur.la/images/2025/07/08/default.png);
+            background-image: url("default.png");
             background-repeat: no-repeat;
             background-position: top;
             background-attachment: fixed;
+            max-height: 2vh;
         }
         .avatar{
             margin-left: 5px;
@@ -51,6 +80,7 @@
             height: 40px;
             border-radius: 50%;
             overflow: hidden;
+            cursor: pointer;
         }
         .avatar img {
             width: 100%;
@@ -69,20 +99,18 @@
         }
         .function-zone{
             display: flex;
-            margin-left: 5%;
+            margin-left: 20%;
             margin-right: 5%;
-            width: 100%;
+            width: 50%;
             height: 40px;
             border-radius: 10px;
             background-color: rgb(64, 64, 64);
         }
         .function-zone:hover{
             background-color: rgba(64, 64, 64, 0.3);
-            transition: background-color 0.4s ease;
         }
         .function-zone:not(:hover){
             background-color: rgba(64, 64, 64, 0);
-            transition: background-color 0.4s ease;
         }
         .tbef{
             padding-top: 7px;
@@ -94,24 +122,69 @@
             flex: 1;
         }
         .tbef:hover{
+            color: rgba(210,218,225,1);
             background-color: rgba(0,0,0,0.3);
-            transition: background-color 0.4s ease;
         }
         .tbef:not(:hover){
+            color: aliceblue;
             background-color: rgba(0,0,0,0);
-            transition: background-color 0.4s ease;
         }
         .title {
             color: azure;
-            width: 20%;
             height: 61px;
-            margin: 20% 40% auto 40%;
-            font-size: 35px;
+            margin-top: 20%;
+            font-size: 60px;
             font-weight: 900;
             text-align: center;
             border-radius: 10px;
+            justify-content: center;
+            cursor: default;
+        }
+        .title:hover{
+            opacity: 100%;
+        }
+        .title,.title:not(:hover){
             opacity: 80%;
+        }
+        .contact{
+            display: flex;
+            justify-content: center;
+            height: 40px;
+            width: 20%;
+            margin: 30px 40%;
+            border-radius: 10px;
+            background-color: rgba(0,0,0,0.3);
+        }
+        .cont{
+            text-align: center;
             cursor: pointer;
+            background-color: rgba(0,0,0,0);
+            border-radius: 10px;
+            flex: 1;
+            font-size: 25px;
+        }
+        .cont:hover{
+            background-color: rgba(0,0,0,0.3);
+        }
+        .cont:not(:hover){
+            background-color: rgba(0, 0, 0, 0);
+        }
+        .bilibili-icon{
+            margin-top: 3px;
+            scale: 85%;
+        }
+        a,a:link,a:visited,a:active{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgba(210,218,225,1);
+        }
+        a:not(:hover){
+            color: aliceblue;
+        }
+        .function-zone:hover,.function-zone:not(:hover),.tbef:hover,.tbef:not(:hover),.title:hover,.title:not(:hover),.cont:hover,.cont:not(:hover),a:hover,a:not(:hover){
+            transition: all 0.4s ease;
         }
     </style>
     <script>
