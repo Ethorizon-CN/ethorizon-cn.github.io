@@ -6,7 +6,7 @@
     <link rel="icon" href="favicon.ico" type="favicon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <title>Ethorizon>>以太视界</title>
+    <title>EthorizonIsHere's Personal Website</title>
 </head>
 <body>
     <div class="side-bar">
@@ -81,6 +81,10 @@
         </div>
     </div>
     <style>
+        @font-face{
+            font-family: 'TencentSansW7';
+            src: url('TencentSansW7.ttf') format('ttf')
+        }
         body{
             background-image: url("default.png");
             background-repeat: no-repeat;
@@ -149,11 +153,11 @@
         }
         .side-bar-button:active ~ .navigation-zone{
             left: 0%;
-            transition: all 0.4s ease;
+            transition: all 0.4 ease;
         }
         .side-bar-button:not(:active) ~ .navigation-zone{
             left: -30%;
-            transition: all 0.4s ease;
+            transition: all 0.4 ease;
         }
         .side-bar-button:active{
             color: rgba(180,188,195,1);
@@ -197,7 +201,7 @@
             border-radius: 10px;
             font-size: 30px;
             font-weight: 800;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'TencentSansW7', Arial, sans-serif;
             align-items: center;
             justify-content: flex-start;
             transform: scaleX(80%);
@@ -275,7 +279,7 @@
             color: aliceblue;
         }
         :hover,:not(:hover),:active,:not(:active){
-            transition: all 0.4s ease;
+            transition: all 0.4 ease;
         }
     </style>
     <script>
