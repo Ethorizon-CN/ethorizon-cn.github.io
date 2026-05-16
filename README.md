@@ -1,4 +1,4 @@
-# **Ethorizon的个人网站|A Website By Ethorizon_CN**
+# **EtherformTM的个人网站|A Website By EtherformTM**
 ### 不要问我为什么网页只有3行，问就是还没写好嘞（
 以下是使用Markdown简单撰写的网站功能
 *    常用网站直达
