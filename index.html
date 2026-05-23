@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="avatar.jpg" type="image/x-icon">
+    <link rel="icon" href="/avatar.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <title>EtherformTM's Personal Website</title>
@@ -72,7 +72,7 @@
             </div>
             <div class="cont bilibili">
                 <a href="https://space.bilibili.com/3537121040140965" target="_blank" rel="noopener" title="哔哩哔哩（B站）-Bilibili">
-                    <img src="Bilibili.png" alt="Bilibili" class="bilibili-icon">
+                    <img src="/Bilibili.png" alt="Bilibili" class="bilibili-icon">
                 </a>
             </div>
             <div class="cont email">
@@ -170,7 +170,7 @@
             opacity: 90%;
             position: fixed;
             z-index: 99;
-            transition: all 0.4 ease;
+            transition: all 400ms ease;
         }
         .navZone ~ .navZoneBg{
             position: fixed;
@@ -187,7 +187,7 @@
         .navZone.navActive ~ .navZoneBg {
             left: 0%;
             background-color: rgba(0,0,0,0.5);
-            transition: background-color 0.4 ease;
+            transition: background-color 400ms ease;
         }
         .navZoneBtn:hover,.tbef:hover{
             color: rgba(210,218,225,1);
@@ -313,7 +313,7 @@
             color: aliceblue;
         }
         :hover,:not(:hover),:active,:not(:active){
-            transition: all 0.4S ease;
+            transition: all 400ms ease;
         }
     </style>
     <script>
