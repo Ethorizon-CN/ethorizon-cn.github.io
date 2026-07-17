@@ -1,0 +1,186 @@
+- category: 个人作品
+  icon: fa-face-laugh
+  items:
+    - name: 个人博客
+      link: https://ethorizon.dpdns.org
+      description: 个人博客
+      image: /images/avatar.png
+
+    - name: 三体问题模拟[支持中]
+      link: https://www.desmos.com/geometry/1r9hlwaffh
+      description: 基于Desmos几何的三体问题模拟器|点击左上定时器即可开始模拟
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: 三体问题模拟-行星绕日模型[更新已停止]
+      link: https://www.desmos.com/geometry/0mimgryqdj
+      description: 基于Desmos几何的三体行星绕日模型模拟器|点击左上定时器即可开始模拟
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: N体问题模拟[支持中]
+      link: https://www.desmos.com/geometry/fldemv2bnl
+      description: 基于Desmos几何的N体问题模拟器|点击左上定时器即可开始模拟
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: 三维N体问题模拟[支持中]
+      link: https://www.desmos.com/3d/pddyntq5wc
+      description: 基于Desmos 3D图形计算器的三维N体问题模拟器|点击左上定时器即可开始模拟
+      image: https://www.desmos.com/assets/img/apps/3d/favicon.ico
+
+- category: MINECRAFT
+  icon: fa-gamepad
+  items:
+    - name: MINECRAFT官方网站
+      link: https://www.minecraft.net/
+      description: 一个沙盒游戏，玩家可以在一个由方块构成的3D世界中自由探索、建造和冒险
+      image: https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico
+
+    - name: MCJS.CC（原MC.JS.COOL）
+      link: https://mcjs.cc/
+      description: 在线玩MC!
+      image: https://mcjs.cc/favicon.png
+
+    - name: MINECRAFT中文维基百科
+      link: https://zh.minecraft.wiki/
+      description: 一个旨在收集一切有关Minecraft系列的实用信息的公开的、可编辑的维基百科
+      image: https://zh.minecraft.wiki/favicon.ico
+
+    - name: 矿艺大典
+      link: https://lzh.minecraft.wiki/
+      description: 㢰文共撰，汇聚群科，矿艺之事典也|人话：MC文言维基百科（原文为繁体，此处已做转换）
+      image: https://lzh.minecraft.wiki/favicon.ico
+
+    - name: MCBLOCK方块工坊壁纸站
+      link: https://mcblock.top/wallpapers
+      description: MCBLOCK方块工坊壁纸站提供 Minecraft 高清壁纸免费下载，包含手机壁纸、电脑壁纸、光影截图和建筑场景等主题图片。
+      image: https://mcblock.top/favicon.ico
+
+    - name: MCJE数据包生成器
+      link: https://misode.github.io/
+      description: 一个可快速编写&生成MCJE数据包的在线工具（尤其见效于地形生成方面）
+      image: https://misode.github.io/assets/favicon-32-AFHRIzOg.png
+
+- category: 实用工具
+  icon: fa-toolbox
+  items:
+    - name: Desmos图形计算器
+      link: https://www.desmos.com/calculator
+      description: 由Desmos Studio运营的一套免费在线数学工具集合|甚至可以当代码PoC用
+      image: https://www.desmos.com/favicon.ico
+
+    - name: Nobook虚拟实验
+      link: https://www.nobook.com/index.html
+      description: 一个免费的在线虚拟实验平台，提供了丰富的实验资源和工具，支持多种学科和实验类型
+      image: https://www.nobook.com/favicon.ico
+
+    - name: GitHub加速下载代理
+      link: https://gh-proxy.com/
+      description: GitHub加速下载代理
+
+    - name: 花生B站视频下载工具
+      link: https://peanutdl.com/zh/bilibili
+      description: 在线解析&下载B站/抖音视频
+      image: https://peanutdl.com/favicon.ico
+
+    - name: 中国内网穿透联盟
+      link: https://内网穿透.中国/
+      description: 中国内网穿透联盟
+      image: https://内网穿透.中国/favicon.ico
+
+    - name: JSON在线解析工具
+      link: https://www.json.cn/
+      description: 在线JSON解析工具，支持JSON格式化、压缩、验证等功能
+      image: https://www.json.cn/favicon.ico
+
+    - name: 在线正则表达式测试工具
+      link: https://regex101.com/
+      description: 在线正则表达式测试工具，支持多种正则表达式语法和调试功能
+      image: https://regex101.com/favicon.ico
+
+    - name: 在线LaTeX编辑器
+      link: https://www.latexlive.com/
+      description: 在线LaTeX编辑器，支持实时预览和导出功能
+      image: 	https://www.latexlive.com/img/header_logo.png
+
+    - name: 在线Markdown编辑器
+      link: https://www.markdowntutorial.com/
+      description: 在线Markdown编辑器，支持实时预览和导出功能
+      image: https://www.markdowntutorial.com/favicon.ico
+
+    - name: WantWords万词王 反向词典
+      link: https://www.wantwords.net/
+      description: WantWords万词王 反向词典，支持中文和英文的反向查询
+      image: https://www.wantwords.net/static/image/zm2.ico
+
+- category: PaaS平台
+  icon: fa-cloud
+  items:
+    - name: GitHub
+      link: https://github.com/
+      description: 全球最大的开源代码托管平台
+      image: https://assets.ohevan.com/img/4765a6ec1eed834a948291c44d34c9a0.jpeg?resize=701%2C701
+
+    - name: Gitee
+      link: https://gitee.com/
+      description: 国内最大的开源代码托管平台
+      image: https://gitee.com/favicon.ico
+    
+    - name: Vercel
+      link: https://vercel.com/
+      description: 全球领先的前端应用托管&云开发平台
+      image: https://assets.ohevan.com/img/aad702a57baaa7dbd17e896342f5f0a0.png
+
+    - name: CloudFlare
+      link: https://www.cloudflare.com/
+      description: CDN、云计算&云安全平台
+      image: https://cloudflare-cn.com/favicon.ico
+
+- category: AI
+  icon: fa-robot # 工具分类的图标
+  items:
+    - name: DeepSeek
+      link: https://deepseek.com/
+      description: 杭州深度求索人工智能基础技术研究有限公司推出的AI助手
+      image: https://deepseek.com/favicon.ico
+
+    - name: 元宝
+      link: https://yuanbao.com/
+      description: 腾讯推出的AI助手
+      image: https://yuanbao.tencent.com/favicon.ico
+
+    - name: Claude
+      link: https://www.anthropic.com/
+      description: Anthropic发布的大型语言模型
+      image: https://www.anthropic.com/favicon.ico
+
+    - name: ChatGPT
+      link: https://chat.openai.com # 书签链接地址
+      description: OpenAI发布的聊天机器人模型
+      image: https://assets.ohevan.com/img/b6b13aa43b541c7a8331d76978a2f9a0.png # 网站图标地址
+    
+    - name: Gemini
+      link: https://gemini.google.com/
+      description: 2023年12月谷歌推出的人工智能多模态大模型
+      image: https://assets.ohevan.com/img/e9ec153676355307aa703869c83ad3d7.webp
+
+- category: 其它
+  icon: fa-ellipsis
+  items:
+    - name: 影视飓风
+      link: https://www.ysjf.com/index
+      description: 数码视频领域自媒体公司
+      image: https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg@128w_128h_1c_1s.webp
+
+    - name: SCP基金会中文维基
+      link: https://scpfoundation.fandom.com/zh/wiki/SCP%E5%9F%BA%E9%87%91%E4%BC%9A%E4%B8%AD%E6%96%87_Wiki
+      description: 声明：该维基中所有内容皆为虚构内容，请勿当真！|SCP基金会中文维基是一个关于SCP基金会的中文百科全书，提供SCP文档、故事和相关资料的详细信息。
+      image: https://static.wikia.nocookie.net/scp/images/e/e6/Site-logo.png/revision/latest?cb=20260331170016
+
+    - name: chengfeng3012
+      link: https://cf3012.cn
+      description: chengfeng3012的小窝
+      image: https://cf3012.cn/favicon.ico
+
+    - name: LightMC
+      link: https://lightmc.dpdns.org
+      description: LightMC的个人博客
+      image: https://lightmc.dpdns.org/favicon.svg

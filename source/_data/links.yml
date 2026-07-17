@@ -1,0 +1,20 @@
+- links_category: 
+  has_thumbnail: false
+  list:
+      - name: chengfeng3012
+        link: https://cf3012.cn
+        description: chengfeng3012的小窝
+        avatar: https://files.cf3012.eu.org/png/icon.png
+        thumbnail: 
+      
+      - name: LightMC
+        link: https://lightmc.dpdns.org
+        description: LightMC的个人博客
+        avatar: https://lightmc.dpdns.org/favicon.svg
+        thumbnail: 
+
+      - name: bobbyg6
+        link: https://space.bilibili.com/3493143867558592
+        description: bobbyg6的B站空间
+        avatar: /images/bobbyg6.jpg
+        thumbnail:
