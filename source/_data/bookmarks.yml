@@ -4,7 +4,7 @@
     - name: 个人博客
       link: https://ethorizon.dpdns.org
       description: 个人博客
-      image: /images/avatar.png
+      image: /assets/images/avatar.png
 
     - name: 三体问题模拟[支持中]
       link: https://www.desmos.com/geometry/1r9hlwaffh

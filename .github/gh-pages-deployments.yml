@@ -1,0 +1,47 @@
+name: GitHub Pages Deployments
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-pages-deployments-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Node.js Setup
+        uses: actions/setup-node@v6.5.0
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Dependency Installation
+        run: npm ci
+
+      - name: Static Site Generation
+        run: npx hexo clean && npx hexo generate
+
+      - name: gh-pages Branch Deployment
+        uses: peaceiris/actions-gh-pages@v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          cname: ethorizon.dpdns.org
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Deploy: ${{ github.event.head_commit.message }}'

@@ -8,52 +8,52 @@
   title: Redefine
   description: Redefine主题默认亮色背景
 
-- image: /images/defaultbg.png
+- image: /assets/images/defaultbg.png
   exif: true
   title: MINECRAFT壁纸
   description: 本站默认MINECRAFT壁纸
 
-- image: /images/light1.jpg
+- image: /assets/images/light1.jpg
   exif: true
   title: MINECRAFT亮色壁纸#1
   description: 本站MINECRAFT亮色壁纸#1
 
-- image: /images/light2_ranjin.png
+- image: /assets/images/light2_ranjin.png
   exif: true
   title: MINECRAFT亮色壁纸#2 - 染尽
   description: “染尽” - 来自MC壁纸站
 
-- image: /images/light3_greatwall1.png
+- image: /assets/images/light3_greatwall1.png
   exif: true
   title: MINECRAFT亮色壁纸#3 - 长城#1
   description: “长城”#1 - 来自MC壁纸站
 
-- image: /images/dark1.jpg
+- image: /assets/images/dark1.jpg
   exif: true
   title: MINECRAFT深色壁纸#1
   description: 本站的MINECRAFT暗色壁纸#1
 
-- image: /images/dark2.jpg
+- image: /assets/images/dark2.jpg
   exif: true
   title: MINECRAFT深色壁纸#2
   description: 本站的MINECRAFT暗色壁纸#2
 
-- image: /images/dark3.jpg
+- image: /assets/images/dark3.jpg
   exif: true
   title: MINECRAFT深色壁纸#3
   description: 本站的MINECRAFT暗色壁纸#3
 
-- image: /images/dark4.jpg
+- image: /assets/images/dark4.jpg
   exif: true
   title: MINECRAFT深色壁纸#4
   description: 本站的MINECRAFT暗色壁纸#4
 
-- image: /images/dark5.jpg
+- image: /assets/images/dark5.jpg
   exif: true
   title: MINECRAFT深色壁纸#5
   description: 本站的MINECRAFT暗色壁纸#5
 
-- image: /images/light4_greatwall2.png
+- image: /assets/images/light4_greatwall2.png
   exif: true
   title: MINECRAFT深色壁纸#6 - 长城#2
   description: “长城”#2 - 来自MC壁纸站
