@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'TencentSans';
+    src: url('TencentSansW7.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
