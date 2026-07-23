@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/avatar.png
+  favicon: /assets/images/avatar.png
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/avatar.png
+  avatar: /assets/images/avatar.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -41,7 +41,7 @@ colors:
   # Secondary color (TBD)
   secondary:
   # Default theme mode initial value (will be overwritten by prefer-color-scheme)
-  default_mode: dark # light, dark
+  default_mode: light # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -99,7 +99,7 @@ global:
   # Whether to enable open graph
   open_graph:
     enable: true
-    image: /images/defaultbg.png  # default og:image
+    image: /assets/images/defaultbg.png  # default og:image
     description: EtherformTM的小窝
   # Google Analytics
   google_analytics:
@@ -131,13 +131,13 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/light1.jpg # light mode
-    dark: /images/dark1.jpg # dark mode
+    light: /assets/images/light1.jpg # light mode
+    dark: /assets/images/dark1.jpg # dark mode
   # Home banner title
   title: EtherformTM
   # Home banner subtitle
   subtitle:
-    text: ["欢迎参观EtherformTM的小站！","To be or not to be,that is the question.","Technoblade never dies!","Change Every changeable present,and the unchangeable future will be changed!","给时光以生命，给岁月以文明。","弱小和无知并不是生存的障碍，傲慢才是。","不理睬便是最大的轻蔑。","给我一片二向箔，清理用","失去人性，失去很多；失去兽性，失去一切。","自然选择号，前进四！","引起F的速度只有426.831，我好怕","毁灭你，与你何干？","我们都是阴沟里的虫子，但还是得有人仰望星空","Why be a king when you can be a god?","友之同好固所需，然此之共，不当全等，当相似；不当形式，而应存异也。","没有bug的代码是不完美的！","Man must be prepared to become a devil when necessary.","恐惧是动物的本能，勇气是人类的赞歌","天下难事，必作于易；天下大事，必作于细。是以圣人终不为大，故能成其大。","上善若水。水善利万物而不争，处众人之所恶，故几于道。","不自见，故明；不自是，故彰，不自伐，故有功；不自矜，故长。夫唯不争，故天下莫能与之争。","无边落木萧萧下，不尽长江滚滚来。","王侯将相宁有种乎！","运筹帷幄之中，决胜千里之外","桃李不言，下自成蹊","这是最好的时代，也是最坏的时代。","这是智慧的时代，也是愚蠢的时代。","这是信任的年代，也是怀疑的年代。","这是光明的季节，也是黑暗的季节。","这是希望的春天，也是失望的冬天。","我们将拥有一切，我们将一无所有。","我们直升天堂，我们直下地狱。","我们控制，我们收容，我们保护。 — The Administrator","無限進步"] # subtitle text, array
+    text: ["欢迎参观EtherformTM的小站！","To be or not to be,that is the question.","Technoblade never dies!","Change Every changeable present,and the unchangeable future will be changed!","给时光以生命，给岁月以文明。","弱小和无知并不是生存的障碍，傲慢才是。","不理睬便是最大的轻蔑。","给我一片二向箔，清理用","失去人性，失去很多；失去兽性，失去一切。","自然选择号，前进四！","引起F的速度只有426.831，我好怕","毁灭你，与你何干？","我们都是阴沟里的虫子，但还是得有人仰望星空","Why be a king when you can be a god?","友之同好固所需，然此之共，不当全等，当相似；不当形式，而应存异也。","没有bug的代码是不完美的！","Man must be prepared to become a devil when necessary.","恐惧是动物的本能，勇气是人类的赞歌","天下难事，必作于易；天下大事，必作于细。是以圣人终不为大，故能成其大。","上善若水。水善利万物而不争，处众人之所恶，故几于道。","不自见，故明；不自是，故彰，不自伐，故有功；不自矜，故长。夫唯不争，故天下莫能与之争。","无边落木萧萧下，不尽长江滚滚来。","王侯将相宁有种乎！","运筹帷幄之中，决胜千里之外","桃李不言，下自成蹊","这是最好的时代，也是最坏的时代。","这是智慧的时代，也是愚蠢的时代。","这是信任的年代，也是怀疑的年代。","这是光明的季节，也是黑暗的季节。","这是希望的春天，也是失望的冬天。","我们将拥有一切，我们将一无所有。","我们直升天堂，我们直下地狱。","我们控制，我们收容，我们保护。 — The Administrator",'"如果你看到面前有阴影，别怕，那是因为你的背后有阳光"',"無限進步"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -487,7 +487,7 @@ inject:
         /* 自定义背景图 */
         /* 亮色模式 */
         body.light-mode #swup {
-          background-image: url('/images/light4_greatwall2_blur_15px.png') !important;
+          background-image: url('/assets/images/light4_greatwall2_blur_15px.png') !important;
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -496,7 +496,7 @@ inject:
 
         /* 深色模式 */
         body.dark-mode #swup {
-          background-image: url('/images/dark1_blur_15px.jpg') !important;
+          background-image: url('/assets/images/dark1_blur_15px.jpg') !important;
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -531,7 +531,7 @@ inject:
                 const centSymbol = document.createElement('span');
 
                 centSymbol.className = 'centSymbol';
-                centSymbol.style.fontSize = '16px';
+                centSymbol.style.fontSize = '1rem';
                 centSymbol.innerHTML = '%';
 
                 rightBottomTools.appendChild(centSymbol);
@@ -672,9 +672,9 @@ plugins:
     audios:
       - name: Alpha # audio name
         artist: C418 # audio artist
-        url: /audios/C418 - Alpha.mp4 # audio url
-        cover: /images/C418 - Alpha.jpg # audio cover url
-        lrc: /lrc/C418 - Alpha.lrc # audio cover lrc
+        url: /assets/audios/C418 - Alpha.mp4 # audio url
+        cover: /assets/images/C418 - Alpha.jpg # audio cover url
+        lrc: /assets/lyrics/C418 - Alpha.lrc # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
