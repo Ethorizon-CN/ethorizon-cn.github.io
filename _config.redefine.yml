@@ -467,14 +467,9 @@ inject:
 
         /* 滚动条 */
         /* 隐藏滚动条 */
-        body::-webkit-scrollbar {
-          display: none;
-        }
-
-        body {
-          overflow: auto;
-          -ms-overflow-style: none;
-          scrollbar-width: none;
+        body::-webkit-scrollbar, html::-webkit-scrollbar {
+          background: transparent !important;
+          width: 0px !important;
         }
 
 
@@ -514,6 +509,63 @@ inject:
           opacity: 0;
           transition: all 0.2s ease;
         }
+
+
+        /* 历史上的今天 */
+        body.light-mode .htListItem {
+          border-bottom: 1px solid #aaa;
+        }
+
+        body.dark-mode .htListItem {
+          border-bottom: 1px solid #555;
+        }
+
+        .announcement-outside {
+          flex-direction: column;
+          overflow-y: scroll;
+          max-height: 40vh;
+          justify-content: flex-start !important;
+        }
+
+        body.light-mode .announcement-outside {
+          -webkit-mask-image: linear-gradient(
+            to bottom,
+            transparent 0,
+            white 50px,
+            white calc(100% - 50px),
+            transparent 100%
+          );
+          mask-image: linear-gradient(
+            to bottom,
+            transparent 0,
+            white 50px,
+            white calc(100% - 50px),
+            transparent 100%
+          );
+        }
+
+        body.dark-mode .announcement-outside {
+          -webkit-mask-image: linear-gradient(
+            to bottom,
+            transparent 0,
+            black 50px,
+            black calc(100% - 50px),
+            transparent 100%
+          );
+          mask-image: linear-gradient(
+            to bottom,
+            transparent 0,
+            black 50px,
+            black calc(100% - 50px),
+            transparent 100%
+          );
+        }
+
+         .announcement-outside::-webkit-scrollbar {
+          background: transparent;
+          width: 0px;
+        }
+
 
         /* 百宝箱子元素模糊便于识别 */
         .p-5.rounded-xl.redefine-box-shadow-flat.transition-all.duration-300.hover\:transform.hover\:-translate-y-1 {
@@ -559,9 +611,26 @@ inject:
 
 
                 // 历史上的今天
-                const siteName = document.getElementsByClassName('site-name')[0];
-                if (siteName) {
-                    siteName.innerHTML = '历史上的今天';
+                const htName = document.getElementsByClassName('site-name')[0];
+                const htToday = document.createElement('div');
+                const htList = document.getElementsByClassName('announcement-outside')[0];
+                if (htName && htList) {
+                  htName.innerHTML = '历史上的今天';
+                  htName.appendChild(htToday);
+                  fetch('https://tmini.net/api/today?type=json')
+                  .then(r => r.json())
+                  .then(({ code, date, events }) => {
+                    if (code !== 200) return;
+                    htToday.innerHTML = '<small>(' + date + ')</small>';
+                    htList.innerHTML = events.map(e => `
+                      <div class="htListItem">
+                          <a href="${e.link}" target="_blank" title="点击跳转百度百科条目">
+                            <b>${e.year}年</b> - ${e.title}<br>
+                          </a>
+                          <small>${e.desc.slice(0, 50)}...</small><br>
+                      </div>
+                    `).join('');
+                  });
                 }
 
 
