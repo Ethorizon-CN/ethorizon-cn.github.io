@@ -17,4 +17,4 @@ date: 2026-06-30 19:12:29
 
  ...
 
- ——致以由衷的感谢，没有他们也就不会有现在的[ethorizon.dpdns.org](https://ethorizon.dpdns.org)。
+ ——致以由衷的感谢，没有他们也就不会有现在的[ethorizon.dpdns.org](/)。

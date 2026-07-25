@@ -137,7 +137,7 @@ home_banner:
   title: EtherformTM
   # Home banner subtitle
   subtitle:
-    text: ["欢迎参观EtherformTM的小站！","To be or not to be,that is the question.","Technoblade never dies!","Change Every changeable present,and the unchangeable future will be changed!","给时光以生命，给岁月以文明。","弱小和无知并不是生存的障碍，傲慢才是。","不理睬便是最大的轻蔑。","给我一片二向箔，清理用","失去人性，失去很多；失去兽性，失去一切。","自然选择号，前进四！","引起F的速度只有426.831，我好怕","毁灭你，与你何干？","我们都是阴沟里的虫子，但还是得有人仰望星空","Why be a king when you can be a god?","友之同好固所需，然此之共，不当全等，当相似；不当形式，而应存异也。","没有bug的代码是不完美的！","Man must be prepared to become a devil when necessary.","恐惧是动物的本能，勇气是人类的赞歌","天下难事，必作于易；天下大事，必作于细。是以圣人终不为大，故能成其大。","上善若水。水善利万物而不争，处众人之所恶，故几于道。","不自见，故明；不自是，故彰，不自伐，故有功；不自矜，故长。夫唯不争，故天下莫能与之争。","无边落木萧萧下，不尽长江滚滚来。","王侯将相宁有种乎！","运筹帷幄之中，决胜千里之外","桃李不言，下自成蹊","这是最好的时代，也是最坏的时代。","这是智慧的时代，也是愚蠢的时代。","这是信任的年代，也是怀疑的年代。","这是光明的季节，也是黑暗的季节。","这是希望的春天，也是失望的冬天。","我们将拥有一切，我们将一无所有。","我们直升天堂，我们直下地狱。","我们控制，我们收容，我们保护。 — The Administrator",'"如果你看到面前有阴影，别怕，那是因为你的背后有阳光"',"在没有错误日志的情况下诊断任何问题，无异于闭眼开车。Troubleshooting any problem without the error log is like driving with your eyes closed.","光锥之内，皆是命运；光锥之外，皆为虚无","無限進步"] # subtitle text, array
+    text: ["欢迎参观EtherformTM的小站！","To be or not to be,that is the question.","Technoblade never dies!","Change Every changeable present,and the unchangeable future will be changed!","给时光以生命，给岁月以文明。","弱小和无知并不是生存的障碍，傲慢才是。","不理睬便是最大的轻蔑。","给我一片二向箔，清理用","失去人性，失去很多；失去兽性，失去一切。","自然选择号，前进四！","引起F的速度只有426.831，我好怕","毁灭你，与你何干？","我们都是阴沟里的虫子，但还是得有人仰望星空","Why be a king when you can be a god?","友之同好固所需，然此之共，不当全等，当相似；不当形式，而应存异也。","没有bug的代码是不完美的！","Man must be prepared to become a devil when necessary.","恐惧是动物的本能，勇气是人类的赞歌","天下难事，必作于易；天下大事，必作于细。是以圣人终不为大，故能成其大。","上善若水。水善利万物而不争，处众人之所恶，故几于道。","不自见，故明；不自是，故彰，不自伐，故有功；不自矜，故长。夫唯不争，故天下莫能与之争。","无边落木萧萧下，不尽长江滚滚来。","王侯将相宁有种乎！","运筹帷幄之中，决胜千里之外","桃李不言，下自成蹊","这是最好的时代，也是最坏的时代。","这是智慧的时代，也是愚蠢的时代。","这是信任的年代，也是怀疑的年代。","这是光明的季节，也是黑暗的季节。","这是希望的春天，也是失望的冬天。","我们将拥有一切，我们将一无所有。","我们直升天堂，我们直下地狱。","我们控制，我们收容，我们保护。 — The Administrator",'"如果你看到面前有阴影，别怕，那是因为你的背后有阳光"',"在没有错误日志的情况下诊断任何问题，无异于闭眼开车。Troubleshooting any problem without the error log is like driving with your eyes closed.","光锥之内，皆是命运；光锥之外，皆为虚无","人类的悲欢并不相通，我只觉得他们吵闹。","無限進步"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -431,7 +431,7 @@ inject:
 
         /* transition（preloader除外） */
         *:not(.letter,.odometer.odometer-auto-theme *) {
-          transition: all 0.2s ease !important;
+          transition: all 0.3s ease !important;
         }
 
 
@@ -468,7 +468,6 @@ inject:
         /* 滚动条 */
         /* 隐藏滚动条 */
         body::-webkit-scrollbar, html::-webkit-scrollbar {
-          background: transparent !important;
           width: 0px !important;
         }
 
@@ -512,58 +511,60 @@ inject:
 
 
         /* 历史上的今天 */
-        body.light-mode .htListItem {
+        body.light-mode .ht-list-item {
           border-bottom: 1px solid #aaa;
         }
 
-        body.dark-mode .htListItem {
+        body.dark-mode .ht-list-item {
           border-bottom: 1px solid #555;
         }
 
         .announcement-outside {
           flex-direction: column;
           overflow-y: scroll;
-          max-height: 40vh;
+          overscroll-behavior: contain;
+          max-height: 50vh;
           justify-content: flex-start !important;
         }
 
-        body.light-mode .announcement-outside {
-          -webkit-mask-image: linear-gradient(
-            to bottom,
-            transparent 0,
-            white 50px,
-            white calc(100% - 50px),
-            transparent 100%
-          );
-          mask-image: linear-gradient(
-            to bottom,
-            transparent 0,
-            white 50px,
-            white calc(100% - 50px),
-            transparent 100%
-          );
-        }
-
-        body.dark-mode .announcement-outside {
-          -webkit-mask-image: linear-gradient(
-            to bottom,
-            transparent 0,
-            black 50px,
-            black calc(100% - 50px),
-            transparent 100%
-          );
-          mask-image: linear-gradient(
-            to bottom,
-            transparent 0,
-            black 50px,
-            black calc(100% - 50px),
-            transparent 100%
-          );
-        }
-
          .announcement-outside::-webkit-scrollbar {
-          background: transparent;
           width: 0px;
+        }
+
+
+        /* 上下边缘渐隐 */
+        body.light-mode .up-down-edge-fade {
+          -webkit-mask-image: linear-gradient(
+            to bottom,
+            transparent 0,
+            white 7.5vh,
+            white calc(100% - 7.5vh),
+            transparent 100%
+          );
+          mask-image: linear-gradient(
+            to bottom,
+            transparent 0,
+            white 7.5vh,
+            white calc(100% - 7.5vh),
+            transparent 100%
+          );
+        }
+
+        body.dark-mode .up-down-edge-fade {
+          -webkit-mask-image: linear-gradient(
+            to bottom,
+            transparent 0,
+            black 7.5vh,
+            black calc(100% - 7.5vh),
+            transparent 100%
+          );
+          mask-image: linear-gradient(
+            to bottom,
+            transparent 0,
+            black 7.5vh,
+            black calc(100% - 7.5vh),
+            transparent 100%
+          );
         }
 
 
@@ -617,13 +618,14 @@ inject:
                 if (htName && htList) {
                   htName.innerHTML = '历史上的今天';
                   htName.appendChild(htToday);
+                  htList.className = 'announcement-outside up-down-edge-fade';
                   fetch('https://tmini.net/api/today?type=json')
                   .then(r => r.json())
                   .then(({ code, date, events }) => {
                     if (code !== 200) return;
                     htToday.innerHTML = '<small>(' + date + ')</small>';
                     htList.innerHTML = events.map(e => `
-                      <div class="htListItem">
+                      <div class="ht-list-item">
                           <a href="${e.link}" target="_blank" title="点击跳转百度百科条目">
                             <b>${e.year}年</b> - ${e.title}<br>
                           </a>
@@ -678,11 +680,24 @@ inject:
 
             //在切页和页面刚加载时加载inject。如果页面还在加载中，则等待DOMContentLoaded事件触发后再执行inject
             if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', inject);
+            document.addEventListener('DOMContentLoaded',inject);
             } else {
             inject();
             }
         })();
+      </script>
+      <script>
+        console.log(`%c欢迎来到EtherformTM的个人博客！\n Powered by%c
+                                                                                                                                     
+       ██████████  █████    █████                            ██████                                      ███████████ ██████   ██████ 
+      ░░███░░░░░█ ░░███    ░░███                            ███░░███                                    ░█░░░███░░░█░░██████ ██████  
+       ░███  █ ░  ███████   ░███████    ██████  ████████   ░███ ░░░   ██████   ████████  █████████████  ░   ░███  ░  ░███░█████░███  
+       ░██████   ░░░███░    ░███░░███  ███░░███░░███░░███ ███████    ███░░███ ░░███░░███░░███░░███░░███     ░███     ░███░░███ ░███  
+       ░███░░█     ░███     ░███ ░███ ░███████  ░███ ░░░ ░░░███░    ░███ ░███  ░███ ░░░  ░███ ░███ ░███     ░███     ░███ ░░░  ░███  
+       ░███ ░   █  ░███ ███ ░███ ░███ ░███░░░   ░███       ░███     ░███ ░███  ░███      ░███ ░███ ░███     ░███     ░███      ░███  
+       ██████████  ░░█████  ████ █████░░██████  █████      █████    ░░██████   █████     █████░███ █████    █████    █████     █████ 
+       ░░░░░░░░░░    ░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░      ░░░░░      ░░░░░░   ░░░░░     ░░░░░ ░░░ ░░░░░    ░░░░░    ░░░░░     ░░░░░ 
+      \n%cand more.See https://ethorizon.dpdns.org/about.`,'color:#55ffff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color:#55ffff');
       </script>
   # Inject custom footer html code
   footer:
