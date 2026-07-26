@@ -167,7 +167,7 @@ home_banner:
     # Font family
     family: 'TencentSans'
     # URL to font CSS file
-    url: /fonts/TencentSans/TencentSans.css
+    url: /assets/fonts/TencentSans/TencentSans.css
   # Home banner social links
   social_links:
     # Whether to enable
@@ -187,7 +187,7 @@ home_banner:
     # Social links with QRcode drawers
     qrs:
       - icon: weixin
-        qr: images/wechat.png
+        qr: /assets/images/wechat.png
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -425,7 +425,7 @@ inject:
       <style>
         @font-face {
           font-family: 'TencentSans';
-          src: url('/assets/fonts/TencentSans/TencentSansW7.ttf') format('truetype');
+          src: url('/assets/fonts/TencentSans/TencentSansW3.ttf') format('truetype');
           font-weight: 200 700;
           font-display: swap;
           font-style: normal;
