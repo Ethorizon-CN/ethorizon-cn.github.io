@@ -425,9 +425,9 @@ inject:
       <style>
         /* 全局 */
         /* 自定义字体 */
-        * {
+        /* * {
           font-family: 'TencentSans';
-        }
+        } */
 
         /* transition（preloader除外） */
         *:not(.letter,.odometer.odometer-auto-theme *) {
