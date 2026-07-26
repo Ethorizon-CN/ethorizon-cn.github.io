@@ -423,10 +423,17 @@ inject:
   head: 
     - |
       <style>
+        @font-face {
+          font-family: 'TencentSans';
+          src: url('TencentSansW7.ttf') format('truetype');
+          font-weight: 200 700;
+          font-display: swap;
+          font-style: normal;
+        }
         /* 全局 */
         /* 自定义字体 */
         * {
-          font-family: 'TencentSans' !important;
+          font-family: 'TencentSans';
         }
 
         /* transition（preloader除外） */
