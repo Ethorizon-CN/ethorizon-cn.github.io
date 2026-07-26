@@ -426,7 +426,7 @@ inject:
         /* 全局 */
         /* 自定义字体 */
         * {
-          font-family: 'TencentSans';
+          font-family: 'TencentSans' !important;
         }
 
         /* transition（preloader除外） */
@@ -438,6 +438,7 @@ inject:
         /* preloader区域 */
         /* 使用系统默认字体防止跳变&字符居中防止换行时出现问题 */
         .ml13 * {
+          font-family: sans-serif !important;
           font-weight: bold !important;
           justify-content: center !important;
         }
