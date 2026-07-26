@@ -54,17 +54,17 @@ global:
     chinese: 
       enable: true # Whether to enable custom chinese fonts
       family: 'TencentSans' # Font family
-      url: /fonts/TencentSans/TencentSans.css # Font URL to CSS file
+      url: /assets/fonts/TencentSans/TencentSans.css # Font URL to CSS file
     # English fonts
     english: 
       enable: true # Whether to enable custom english fonts
       family: 'TencentSans' # Font family
-      url: /fonts/TencentSans/TencentSans.css # Font URL to CSS file
+      url: /assets/fonts/TencentSans/TencentSans.css # Font URL to CSS file
     # Custom title fonts (navbar, sidebar)
     title:
       enable: true # Whether to enable custom title fonts
       family: 'TencentSans' # Font family
-      url: /fonts/TencentSans/TencentSans.css # Font URL to CSS file
+      url: /assets/fonts/TencentSans/TencentSans.css # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -183,7 +183,7 @@ home_banner:
       - icon: fa-brands fa-bilibili
         url: https://space.bilibili.com/3537121040140965
       - icon: fa-solid fa-envelope
-        url: themillionbyter@outlook.com
+        url: mailto:themillionbyter@outlook.com
     # Social links with QRcode drawers
     qrs:
       - icon: weixin
@@ -418,7 +418,7 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: true #<###################################################################################################################################################################################################################NOTICE THIS
+  enable: true
   # Inject custom head html code
   head: 
     - |
