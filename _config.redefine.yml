@@ -425,7 +425,7 @@ inject:
       <style>
         /* 全局 */
         /* 自定义字体 */
-        body {
+        body * {
           font-family: 'TencentSans', serif;
         }
 
