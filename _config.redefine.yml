@@ -245,7 +245,7 @@ home:
     enable: true # Whether to enable sidebar
     position: right # Sidebar position. left, right
     first_item: info # First item in sidebar. menu, info
-    announcement: '<i class="fa-solid fa-ban" style="font-size: 1rem;"></i>该功能暂不可用' # Announcement text
+    announcement: '<i class="fa-solid fa-ban" style="font-size: 1rem;">该功能暂不可用</i>' # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links: # ...... # you can add more
   # Article date format
@@ -425,9 +425,9 @@ inject:
       <style>
         /* 全局 */
         /* 自定义字体 */
-        * {
+        /* * {
           font-family: 'TencentSans';
-        }
+        } */
 
         /* transition（preloader除外） */
         *:not(.letter,.odometer.odometer-auto-theme *) {
