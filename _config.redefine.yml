@@ -445,9 +445,9 @@ inject:
 
 
         /* 代码块 */
-        /* 使用Geist Mono字体 */
+        /* 使用Consolas字体 */
         .code * {
-          font-family: 'Geist Mono', Courier, monospace !important;
+          font-family: 'Consolas', Geist Mono, Courier, monospace !important;
         }
 
 
