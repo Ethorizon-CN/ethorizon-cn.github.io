@@ -137,7 +137,7 @@ home_banner:
   title: EtherformTM
   # Home banner subtitle
   subtitle:
-    text: ["欢迎参观EtherformTM的小站！","To be or not to be,that is the question.","Technoblade never dies!","Change Every changeable present,and the unchangeable future will be changed!","给时光以生命，给岁月以文明。","弱小和无知并不是生存的障碍，傲慢才是。","不理睬便是最大的轻蔑。","给我一片二向箔，清理用","失去人性，失去很多；失去兽性，失去一切。","自然选择号，前进四！","引起F的速度只有426.831，我好怕","毁灭你，与你何干？","我们都是阴沟里的虫子，但还是得有人仰望星空","Why be a king when you can be a god?","友之同好固所需，然此之共，不当全等，当相似；不当形式，而应存异也。","没有bug的代码是不完美的！","Man must be prepared to become a devil when necessary.","恐惧是动物的本能，勇气是人类的赞歌","天下难事，必作于易；天下大事，必作于细。是以圣人终不为大，故能成其大。","上善若水。水善利万物而不争，处众人之所恶，故几于道。","不自见，故明；不自是，故彰，不自伐，故有功；不自矜，故长。夫唯不争，故天下莫能与之争。","无边落木萧萧下，不尽长江滚滚来。","王侯将相宁有种乎！","运筹帷幄之中，决胜千里之外","桃李不言，下自成蹊","这是最好的时代，也是最坏的时代。","这是智慧的时代，也是愚蠢的时代。","这是信任的年代，也是怀疑的年代。","这是光明的季节，也是黑暗的季节。","这是希望的春天，也是失望的冬天。","我们将拥有一切，我们将一无所有。","我们直升天堂，我们直下地狱。","我们控制，我们收容，我们保护。 — The Administrator",'"如果你看到面前有阴影，别怕，那是因为你的背后有阳光"',"在没有错误日志的情况下诊断任何问题，无异于闭眼开车。Troubleshooting any problem without the error log is like driving with your eyes closed.","光锥之内，皆是命运；光锥之外，皆为虚无","人类的悲欢并不相通，我只觉得他们吵闹。","二十年之后，更令你感到失望的不是你做了什么，而是你没做什么。所以解开帆脚索，离开安全的港湾，赶着航程中的信风，去探索，去梦想，去发现。","無限進步"] # subtitle text, array
+    text: ["欢迎参观EtherformTM的小站！","To be or not to be,that is the question.","Technoblade never dies!","Change Every changeable present,and the unchangeable future will be changed!","给时光以生命，给岁月以文明。","弱小和无知并不是生存的障碍，傲慢才是。","不理睬便是最大的轻蔑。","给我一片二向箔，清理用","失去人性，失去很多；失去兽性，失去一切。","自然选择号，前进四！","引起F的速度只有426.831，我好怕","毁灭你，与你何干？","我们都是阴沟里的虫子，但还是得有人仰望星空","Why be a king when you can be a god?","友之同好固所需，然此之共，不当全等，当相似；不当形式，而应存异也。","没有bug的代码是不完美的！","Man must be prepared to become a devil when necessary.","恐惧是动物的本能，勇气是人类的赞歌","天下难事，必作于易；天下大事，必作于细。是以圣人终不为大，故能成其大。","上善若水。水善利万物而不争，处众人之所恶，故几于道。","不自见，故明；不自是，故彰，不自伐，故有功；不自矜，故长。夫唯不争，故天下莫能与之争。","无边落木萧萧下，不尽长江滚滚来。","王侯将相宁有种乎！","运筹帷幄之中，决胜千里之外","桃李不言，下自成蹊","这是最好的时代，也是最坏的时代。","这是智慧的时代，也是愚蠢的时代。","这是信任的年代，也是怀疑的年代。","这是光明的季节，也是黑暗的季节。","这是希望的春天，也是失望的冬天。","我们将拥有一切，我们将一无所有。","我们直升天堂，我们直下地狱。","我们控制，我们收容，我们保护。 — The Administrator",'"如果你看到面前有阴影，别怕，那是因为你的背后有阳光"',"在没有错误日志的情况下诊断任何问题，无异于闭眼开车。Troubleshooting any problem without the error log is like driving with your eyes closed.","光锥之内，皆是命运；光锥之外，皆为虚无","人类的悲欢并不相通，我只觉得他们吵闹。","二十年之后，更令你感到失望的不是你做了什么，而是你没做什么。所以解开帆脚索，离开安全的港湾，赶着航程中的信风，去探索，去梦想，去发现。","落霞与孤鹜齐飞，秋水共长天一色。","無限進步"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -301,9 +301,9 @@ articles:
       light: github # light mode theme, support: github, atom-one-light, default
       dark: vs2015 # dark mode theme, support: github-dark, monokai-sublime, vs2015, night-owl, atom-one-dark, nord, tokyo-night-dark, a11y-dark, agate
     font: # Custom font
-      enable: false # Whether to enable
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true # Whether to enable
+      family: 'Hack'  # Font family
+      url: /assets/fonts/Hack/hack.css # Font URL to CSS file
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC
@@ -430,7 +430,7 @@ inject:
         }
 
         /* transition（preloader除外） */
-        *:not(.letter,.odometer.odometer-auto-theme *) {
+        *:not(.letter,.odometer.odometer-auto-theme *,del.mask) {
           transition: all 0.3s ease !important;
         }
 
@@ -438,16 +438,9 @@ inject:
         /* preloader区域 */
         /* 使用系统默认字体防止跳变&字符居中防止换行时出现问题 */
         .ml13 * {
-          font-family: sans-serif !important;
+          /* font-family: sans-serif !important; */
           font-weight: bold !important;
           justify-content: center !important;
-        }
-
-
-        /* 代码块 */
-        /* 使用Consolas字体 */
-        .code * {
-          font-family: 'Consolas', Geist Mono, Courier, monospace !important;
         }
 
 
@@ -461,7 +454,7 @@ inject:
 
         /* hover时隐藏百分号 */
         .side-tools-container .visible-tools-list .tool-scroll-to-top:hover .centSymbol {
-        display: none;
+          display: none;
         }
 
 
@@ -527,7 +520,7 @@ inject:
           justify-content: flex-start !important;
         }
 
-         .announcement-outside::-webkit-scrollbar {
+        .announcement-outside::-webkit-scrollbar {
           width: 0px;
         }
 
@@ -567,13 +560,11 @@ inject:
           );
         }
 
-
-        /* 百宝箱子元素模糊便于识别 */
-        .p-5.rounded-xl.redefine-box-shadow-flat.transition-all.duration-300.hover\:transform.hover\:-translate-y-1 {
+        /* 百宝箱 */
+        .p-5 {
           -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
         }
-
       </style>
       <script src="https://clipboard.nodejs.cn/clipboard.min.js"></script>
       <script data-swup-reload-script type="text/javascript">

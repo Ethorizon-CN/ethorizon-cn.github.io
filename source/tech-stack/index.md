@@ -42,12 +42,14 @@ updated: '2026-07-26T15:37:23.606+08:00'
 
 ### 1.部署&托管服务
 
+- **GitHub** - 提供源代码托管服务
+- **Cloudflare** - 提供 CDN 加速、安全防护、域名管理& DNS 解析服务
+- **Vercel** - 部署 Waline 评论系统& Qexo 博客管理后台的无服务器平台
+- **DigitalPlat** - 提供dpdns.org免费二级域名
 - **GitHub Repository** - 源代码仓库，托管博客全部源码&站点文件
-- **Cloudflare Pages** - 主站静态托管服务
 - **GitHub Secrets** - 存储 CI/CD 流程所需的如 API 密钥等敏感变量
 - **GitHub Pages** - 备用 Pages 服务，通过 GitHub Actions 自动构建源码&发布
-- **Vercel** - 部署 Waline 评论系统& Qexo 博客管理后台的无服务器平台
-- **Cloudflare** - 提供 CDN 加速、安全防护、域名管理& DNS 解析服务
+- **Cloudflare Pages** - 主站静态托管服务
 
 ### 2.数据库
 
