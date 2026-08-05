@@ -17,7 +17,7 @@ info:
   # Author name
   author: EtherformTM
   # Site URL
-  url: https://ethorizon.dpdns.org
+  url: https://etherform.dpdns.org
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -347,7 +347,7 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://waline.ethorizon.dpdns.org # Waline server URL. e.g. https://example.example.com
+      serverUrl: https://waline.etherform.dpdns.org # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
@@ -426,7 +426,11 @@ inject:
         /* 全局 */
         /* 自定义字体 */
         body * {
-          font-family: 'TencentSans', serif;
+          font-family: "TencentSans", serif;
+        }
+
+        .code * {
+          font-family: "Hack", "Geist Mono", Courier, monospace !important;
         }
 
         /* transition（preloader除外） */
@@ -688,7 +692,7 @@ inject:
        ░███ ░   █  ░███ ███ ░███ ░███ ░███░░░   ░███       ░███     ░███ ░███  ░███      ░███ ░███ ░███     ░███     ░███      ░███  
        ██████████  ░░█████  ████ █████░░██████  █████      █████    ░░██████   █████     █████░███ █████    █████    █████     █████ 
        ░░░░░░░░░░    ░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░      ░░░░░      ░░░░░░   ░░░░░     ░░░░░ ░░░ ░░░░░    ░░░░░    ░░░░░     ░░░░░ 
-      \n%cand more.See https://ethorizon.dpdns.org/about.`,'color:#55ffff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color:#55ffff');
+      \n%cand more.See https://etherform.dpdns.org/about.`,'color:#55ffff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color:#55ffff');
       </script>
   # Inject custom footer html code
   footer:

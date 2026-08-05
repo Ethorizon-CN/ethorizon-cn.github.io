@@ -26,6 +26,9 @@ mathjax: false
  由于该字体为非商免字体，故切忌用于商业用途，如若违反后果自负。[字体说明](https://cn.monotype-asia.com/portfolio/tencent-sans)
  {% endcallout %}
  代码块字体：GitHub开源字体Hack。[GitHub仓库](https://github.com/source-foundry/Hack)
+ ```
+ 字体预览|Quick brown fox jumps over a lazy dog.|1234567890
+ ```
 
 2. **Q** - 下面的字符画怎么做的？
    **A** - 这种字符画就是ASCII Art/CLI Banner，网上随便搜一下就有，找个喜欢的字体复制一下就可以了。
@@ -47,7 +50,7 @@ mathjax: false
 
 ...
 
-——致以由衷的感谢，没有他们也就不会有现在的[ethorizon.dpdns.org](/)。
+——致以由衷的感谢，没有他们也就不会有现在的[etherform.dpdns.org](/)。
 
 如果你有什么想对我说的，又或是~~吐槽石山代码~~吐槽本站的bug，可以[联系我](/)或直接在下面评论~
 
@@ -55,7 +58,7 @@ mathjax: false
     <div style='color: #55aaff'>Powered by</div>
     <div style='background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%); font-size: 0.7rem; white-space:pre; font-family: Consolas, monospace; text-align:center; ' id='asciiArt'>
     </div>
-    <div style='color: #55aaff'>and more.See <a href="https://ethorizon.dpdns.org/about">https://ethorizon.dpdns.org/about</a>.</div>
+    <div style='color: #55aaff'>and more.See <a href="https://etherform.dpdns.org/about">https://etherform.dpdns.org/about</a>.</div>
 </div>
 <script data-swup-reload-script type="text/javascript">
     document.getElementById('asciiArt').innerHTML = `
