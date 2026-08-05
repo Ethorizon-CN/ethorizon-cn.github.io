@@ -692,7 +692,7 @@ inject:
        ░███ ░   █  ░███ ███ ░███ ░███ ░███░░░   ░███       ░███     ░███ ░███  ░███      ░███ ░███ ░███     ░███     ░███      ░███  
        ██████████  ░░█████  ████ █████░░██████  █████      █████    ░░██████   █████     █████░███ █████    █████    █████     █████ 
        ░░░░░░░░░░    ░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░      ░░░░░      ░░░░░░   ░░░░░     ░░░░░ ░░░ ░░░░░    ░░░░░    ░░░░░     ░░░░░ 
-      \n%cand more.See https://etherform.dpdns.org/about.`,'color:#55ffff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color:#55ffff');
+      \n%cand more.See https://etherform.dpdns.org/about.`,'color: #55aaff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color: #55aaff');
       </script>
   # Inject custom footer html code
   footer:
