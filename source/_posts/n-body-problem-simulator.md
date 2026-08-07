@@ -1,17 +1,13 @@
 ---
 abbrlink: ''
-categories:
-- 学科
+categories: ['学科']
 date: '2026-07-06T16:08:57+08:00'
 expires: '2027-01-06T16:08:57+08:00'
 sticky: 10
-tags:
-- N体问题模拟
-- Desmos
-- PoC
-- 欧拉法
+tags: ['N体问题模拟', 'Desmos', 'PoC', '欧拉法']
 title: 基于Desmos的欧拉法N体问题模拟
 updated: '2026-07-23T12:11:44.202+08:00'
+mathjax: true
 ---
 ## 前言
 

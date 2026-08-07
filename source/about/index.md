@@ -3,7 +3,6 @@ date: '2026-06-30T19:12:29+08:00'
 title: 关于
 updated: '2026-07-26T15:11:59.882+08:00'
 comment: true
-mathjax: false
 ---
 ## 简介
 
@@ -26,11 +25,8 @@ mathjax: false
  由于该字体为非商免字体，故切忌用于商业用途，如若违反后果自负。[字体说明](https://cn.monotype-asia.com/portfolio/tencent-sans)
  {% endcallout %}
  代码块字体：GitHub开源字体Hack。[GitHub仓库](https://github.com/source-foundry/Hack)
- ```
- 字体预览|Quick brown fox jumps over a lazy dog.|1234567890
- ```
 
-2. **Q** - 下面的字符画怎么做的？
+1. **Q** - 下面的字符画怎么做的？
    **A** - 这种字符画就是ASCII Art/CLI Banner，网上随便搜一下就有，找个喜欢的字体复制一下就可以了。
  {% callout type="info" title="使用说明" %}
  ASCII Art高度依赖每行字符的一一对应，因而如果你希望在不同设备上都能呈现良好的效果，请使用等宽字体或在生成时选择包含等宽字符的版本。
@@ -53,15 +49,29 @@ mathjax: false
 ——致以由衷的感谢，没有他们也就不会有现在的[etherform.dpdns.org](/)。
 
 如果你有什么想对我说的，又或是~~吐槽石山代码~~吐槽本站的bug，可以[联系我](/)或直接在下面评论~
-
+<style>
+  #asciiArt {
+    padding-left: var(--left-right-edge-fade-region);
+    padding-right: var(--left-right-edge-fade-region);
+    background: linear-gradient(to left, #008fff 0%, #ff2333 100%);
+    font-size: 0.7rem;
+    white-space:pre;
+    font-family: Consolas, monospace;
+    text-align:center;
+    overflow-x:scroll;
+  }
+  #asciiArt::-webkit-scrollbar {
+    width: 0px;
+  }
+</style>
 <div>
-    <div style='color: #55aaff'>Powered by</div>
-    <div style='background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%); font-size: 0.7rem; white-space:pre; font-family: Consolas, monospace; text-align:center; ' id='asciiArt'>
-    </div>
-    <div style='color: #55aaff'>and more.See <a href="https://etherform.dpdns.org/about">https://etherform.dpdns.org/about</a>.</div>
+  <div style='color: #55aaff'>Powered by</div>
+  <div id='asciiArt' class='left-right-edge-fade'></div>
+  </div>
+  <div style='color: #55aaff'>and more.See <a href="https://etherform.dpdns.org/about">https://etherform.dpdns.org/about</a>.</div>
 </div>
 <script data-swup-reload-script type="text/javascript">
-    document.getElementById('asciiArt').innerHTML = `
+  document.getElementById('asciiArt').innerHTML = `
  ██████████  █████    █████                            ██████                                      ███████████ ██████   ██████ 
 ░░███░░░░░█ ░░███    ░░███                            ███░░███                                    ░█░░░███░░░█░░██████ ██████  
  ░███  █ ░  ███████   ░███████    ██████  ████████   ░███ ░░░   ██████   ████████  █████████████  ░   ░███  ░  ░███░█████░███  

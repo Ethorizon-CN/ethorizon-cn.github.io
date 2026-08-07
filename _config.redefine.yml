@@ -245,7 +245,7 @@ home:
     enable: true # Whether to enable sidebar
     position: right # Sidebar position. left, right
     first_item: info # First item in sidebar. menu, info
-    announcement: '<i class="fa-solid fa-ban" style="font-size: 1rem;">该功能暂不可用</i>' # Announcement text
+    announcement: '<i class="fa-solid fa-ban" style="font-size: 1rem;"></i><span>该功能暂不可用</span>' # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links: # ...... # you can add more
   # Article date format
@@ -425,7 +425,7 @@ inject:
       <style>
         /* 全局 */
         /* 自定义字体 */
-        body * {
+        * {
           font-family: "TencentSans", serif;
         }
 
@@ -483,6 +483,7 @@ inject:
           background-position: center;
           background-repeat: no-repeat;
           background-attachment: fixed;
+          transform: matrix();
         }
 
         /* 深色模式 */
@@ -522,6 +523,8 @@ inject:
           overscroll-behavior: contain;
           max-height: 50vh;
           justify-content: flex-start !important;
+          padding-top: 3rem !important;
+          padding-bottom: 3rem !important;
         }
 
         .announcement-outside::-webkit-scrollbar {
@@ -529,20 +532,20 @@ inject:
         }
 
 
-        /* 上下边缘渐隐 */
+        /* 边缘渐隐 */
         body.light-mode .up-down-edge-fade {
           -webkit-mask-image: linear-gradient(
             to bottom,
             transparent 0,
-            white 7.5vh,
-            white calc(100% - 7.5vh),
+            white var(--up-down-edge-fade-region),
+            white calc(100% - var(--up-down-edge-fade-region)),
             transparent 100%
           );
           mask-image: linear-gradient(
             to bottom,
             transparent 0,
-            white 7.5vh,
-            white calc(100% - 7.5vh),
+            white var(--up-down-edge-fade-region),
+            white calc(100% - var(--up-down-edge-fade-region)),
             transparent 100%
           );
         }
@@ -551,15 +554,49 @@ inject:
           -webkit-mask-image: linear-gradient(
             to bottom,
             transparent 0,
-            black 7.5vh,
-            black calc(100% - 7.5vh),
+            black var(--up-down-edge-fade-region),
+            black calc(100% - var(--up-down-edge-fade-region)),
             transparent 100%
           );
           mask-image: linear-gradient(
             to bottom,
             transparent 0,
-            black 7.5vh,
-            black calc(100% - 7.5vh),
+            black var(--up-down-edge-fade-region),
+            black calc(100% - var(--up-down-edge-fade-region)),
+            transparent 100%
+          );
+        }
+
+        body.light-mode .left-right-edge-fade {
+          -webkit-mask-image: linear-gradient(
+            to right,
+            transparent 0,
+            white var(--left-right-edge-fade-region),
+            white calc(100% - var(--left-right-edge-fade-region)),
+            transparent 100%
+          );
+          mask-image: linear-gradient(
+            to right,
+            transparent 0,
+            white var(--left-right-edge-fade-region),
+            white calc(100% - var(--left-right-edge-fade-region)),
+            transparent 100%
+          );
+        }
+
+        body.dark-mode .left-right-edge-fade {
+          -webkit-mask-image: linear-gradient(
+            to right,
+            transparent 0,
+            black var(--left-right-edge-fade-region),
+            black calc(100% - var(--left-right-edge-fade-region)),
+            transparent 100%
+          );
+          mask-image: linear-gradient(
+            to right,
+            transparent 0,
+            black var(--left-right-edge-fade-region),
+            black calc(100% - var(--left-right-edge-fade-region)),
             transparent 100%
           );
         }
@@ -568,6 +605,12 @@ inject:
         .p-5 {
           -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
+        }
+
+        /* CSS变量 */
+        :root {
+          --up-down-edge-fade-region: 10rem;
+          --left-right-edge-fade-region: 5rem;
         }
       </style>
       <script src="https://clipboard.nodejs.cn/clipboard.min.js"></script>
@@ -621,12 +664,14 @@ inject:
                     htToday.innerHTML = '<small>(' + date + ')</small>';
                     htList.innerHTML = events.map(e => `
                       <div class="ht-list-item">
-                          <a href="${e.link}" target="_blank" title="点击跳转百度百科条目">
-                            <b>${e.year}年</b> - ${e.title}<br>
-                          </a>
-                          <small>${e.desc.slice(0, 50)}...</small><br>
+                        <a href="${e.link}" target="_blank" title="点击跳转百度百科条目">
+                          <b>${e.year}年</b> - ${e.title}<br>
+                        </a>
+                        <small>${e.desc.slice(0, 50)}...</small><br>
                       </div>
                     `).join('');
+                    const lastHtListItem = document.getElementsByClassName('ht-list-item')[document.getElementsByClassName('ht-list-item').length - 1];
+                    lastHtListItem.style.borderBottom = 'none';
                   });
                 }
 

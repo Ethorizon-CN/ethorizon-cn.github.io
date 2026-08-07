@@ -4,6 +4,7 @@ date: 2026-07-17 14:08:08
 tags: ['高等数学','微积分','教程']
 categories: ['学科']
 sticky: 9
+mathjax: true
 ---
 
 ## 更多内容尚待完善~

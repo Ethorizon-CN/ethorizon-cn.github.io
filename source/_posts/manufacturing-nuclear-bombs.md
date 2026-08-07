@@ -1,14 +1,12 @@
 ---
 abbrlink: ''
-categories:
-- 学科
+categories: ['学科']
 copyright: 本文来自网络，故不做版权处理，如若使用后果自负。
 date: '2026-07-16T13:53:29+08:00'
-tags:
-- 核弹
-- 仅供娱乐
+tags: ['核弹', '仅供娱乐']
 title: 原子弹制作从入门到精通
 updated: '2026-07-23T12:07:11.136+08:00'
+mathjax: true
 ---
 ## 前言
 
