@@ -607,6 +607,11 @@ inject:
           backdrop-filter: blur(5px);
         }
 
+        /* APlayer歌词 */
+        .aplayer .aplayer-lrc p {
+          font-size: 1.25rem !important;
+        }
+
         /* CSS变量 */
         :root {
           --up-down-edge-fade-region: 5rem;
