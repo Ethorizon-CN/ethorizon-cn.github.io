@@ -609,7 +609,7 @@ inject:
 
         /* CSS变量 */
         :root {
-          --up-down-edge-fade-region: 10rem;
+          --up-down-edge-fade-region: 5rem;
           --left-right-edge-fade-region: 5rem;
         }
       </style>
@@ -629,24 +629,24 @@ inject:
 
 
                 // 右键菜单
-                /* const RMBMenu = document.getElementById('RMBMenu');
+                // const RMBMenu = document.getElementById('RMBMenu');
 
-                document.addEventListener('contextmenu', e=>{
-                    e.preventDefault();
-                    RMBMenu.className = 'home-article-item RMBMenu-visible';
-                    RMBMenu.style.left = e.clientX + 'px';
-                    RMBMenu.style.top = e.clientY + 'px';
-                    RMBMenu.style.opacity = '0.8';
-                    RMBMenu.showPopover();
-                });
+                // document.addEventListener('contextmenu', e=>{
+                //     e.preventDefault();
+                //     RMBMenu.className = 'home-article-item RMBMenu-visible';
+                //     RMBMenu.style.left = e.clientX + 'px';
+                //     RMBMenu.style.top = e.clientY + 'px';
+                //     RMBMenu.style.opacity = '0.8';
+                //     RMBMenu.showPopover();
+                // });
 
-                document.addEventListener('click', e=>{
-                    if (RMBMenu && !RMBMenu.contains(e.target)) {
-                    RMBMenu.className = 'home-article-item RMBMenu-invisible';
-                    RMBMenu.style.opacity = '0';
-                    RMBMenu.hidePopover();
-                    }
-                }); */
+                // document.addEventListener('click', e=>{
+                //     if (RMBMenu && !RMBMenu.contains(e.target)) {
+                //     RMBMenu.className = 'home-article-item RMBMenu-invisible';
+                //     RMBMenu.style.opacity = '0';
+                //     RMBMenu.hidePopover();
+                //     }
+                // });
 
 
                 // 历史上的今天
@@ -677,44 +677,44 @@ inject:
 
 
                 // 全屏
-                const documentElement = document.documentElement;
-                let isFullScreen = false;
+                // const documentElement = document.documentElement;
+                // let isFullScreen = false;
 
-                document.addEventListener('fullscreenchange', () => {
-                    isFullScreen = !isFullScreen;
-                });
-                function toggleFullScreen() {
-                    if (isFullScreen == false) {
-                    try {
-                        if (documentElement.requestFullscreen) {
-                        documentElement.requestFullscreen();
-                        } else if (documentElement.mozRequestFullScreen) { // Firefox
-                        documentElement.mozRequestFullScreen();
-                        } else if (documentElement.webkitRequestFullscreen) { // Chrome & Safari
-                        documentElement.webkitRequestFullscreen();
-                        } else if (documentElement.msRequestFullscreen) { // IE
-                        documentElement.msRequestFullscreen();
-                        }
-                    } catch (error) {
-                        console.error("尝试启用全屏模式时出错：", error);
-                    }
-                    } else if (isFullScreen == true) {
-                    try {
-                        if (document.exitFullscreen) {
-                        document.exitFullscreen();
-                        } else if (document.mozCancelFullScreen) { // Firefox
-                        document.mozCancelFullScreen();
-                        } else if (document.webkitExitFullscreen) { // Chrome & Safari
-                        document.webkitExitFullscreen();
-                        } else if (document.msExitFullscreen) { // IE
-                        document.msExitFullscreen();
-                        }
-                    } catch (error) {
-                        console.error("尝试禁用全屏模式时出错：", error);
-                    }
-                    }
-                    RMBMenu.hidePopover();
-                };
+                // document.addEventListener('fullscreenchange', () => {
+                //     isFullScreen = !isFullScreen;
+                // });
+                // function toggleFullScreen() {
+                //     if (isFullScreen == false) {
+                //     try {
+                //         if (documentElement.requestFullscreen) {
+                //         documentElement.requestFullscreen();
+                //         } else if (documentElement.mozRequestFullScreen) { // Firefox
+                //         documentElement.mozRequestFullScreen();
+                //         } else if (documentElement.webkitRequestFullscreen) { // Chrome & Safari
+                //         documentElement.webkitRequestFullscreen();
+                //         } else if (documentElement.msRequestFullscreen) { // IE
+                //         documentElement.msRequestFullscreen();
+                //         }
+                //     } catch (error) {
+                //         console.error("尝试启用全屏模式时出错：", error);
+                //     }
+                //     } else if (isFullScreen == true) {
+                //     try {
+                //         if (document.exitFullscreen) {
+                //         document.exitFullscreen();
+                //         } else if (document.mozCancelFullScreen) { // Firefox
+                //         document.mozCancelFullScreen();
+                //         } else if (document.webkitExitFullscreen) { // Chrome & Safari
+                //         document.webkitExitFullscreen();
+                //         } else if (document.msExitFullscreen) { // IE
+                //         document.msExitFullscreen();
+                //         }
+                //     } catch (error) {
+                //         console.error("尝试禁用全屏模式时出错：", error);
+                //     }
+                //     }
+                //     RMBMenu.hidePopover();
+                // };
             };
 
 
@@ -737,49 +737,49 @@ inject:
        ░███ ░   █  ░███ ███ ░███ ░███ ░███░░░   ░███       ░███     ░███ ░███  ░███      ░███ ░███ ░███     ░███     ░███      ░███  
        ██████████  ░░█████  ████ █████░░██████  █████      █████    ░░██████   █████     █████░███ █████    █████    █████     █████ 
        ░░░░░░░░░░    ░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░      ░░░░░      ░░░░░░   ░░░░░     ░░░░░ ░░░ ░░░░░    ░░░░░    ░░░░░     ░░░░░ 
-      \n%cand more.See https://etherform.dpdns.org/about.`,'color: #55aaff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color: #55aaff');
+      \n%cand more.See https://etherform.dpdns.org/about.`,'color: #55ffff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color: #55ffff');
       </script>
   # Inject custom footer html code
   footer:
     - |
-      <div id="RMBMenu" popover>
+      <!-- <div id="RMBMenu" popover>
         <div class="RMBMChild" id="RMBM-Hotbar">
-            <span>
-                <a id="HbChild-Refresh" href="javascript:window.location.reload();" title="刷新">
-                    <i class="fa-solid fa-arrows-rotate"></i>
-                </a>
+          <span>
+              <a id="HbChild-Refresh" href="javascript:window.location.reload();" title="刷新">
+                <i class="fa-solid fa-arrows-rotate"></i>
+              </a>
             </span>
             <span>
-                <a id="HbChild-FullScreen" href="javascript:toggleFullScreen();" title="切换全屏">
-                    <i class="fa-solid fa-expand"></i>
-                </a>
+              <a id="HbChild-FullScreen" href="javascript:toggleFullScreen();" title="切换全屏">
+                <i class="fa-solid fa-expand"></i>
+              </a>
             </span>
             <span>
-                <a id="HbChild-Settings" href="javascript:toggleSettings();" title="设置">
-                    <i class="fa-solid fa-gear"></i>
-                </a>
+              <a id="HbChild-Settings" href="javascript:toggleSettings();" title="设置">
+                <i class="fa-solid fa-gear"></i>
+              </a>
             </span>
         </div>
         <div class="RMBMChild" id="RMBM-Divider">
         </div>
         <div class="RMBMChild" id="RMBM-DetailedContents">
-            <div>
-                <a id="DCChild-RandomJump" href="javascript:RandomJump();" title="">
-                    <i class="fa-solid fa-paper-plane">清风翻书</i>
-                </a>
-            </div>
-            <div>
-                <a id="DCChild-CopyURL" href="javascript:CopyURL();" title="">
-                    <i class="fa-solid fa-clipboard">复制本页链接</i>
-                </a>
-            </div>
-            <div>
-                <a id="DCChild-Info" href="/about/" title="">
-                    <i class="fa-solid fa-info-circle">网站信息</i>
-                </a>
-            </div>
+        <div>
+            <a id="DCChild-RandomJump" href="javascript:RandomJump();" title="">
+              <i class="fa-solid fa-paper-plane"></i>'清风翻书'
+            </a>
+          </div>
+          <div>
+              <a id="DCChild-CopyURL" href="javascript:CopyURL();" title="">
+                <i class="fa-solid fa-clipboard"></i>'复制本页链接'
+              </a>
+          </div>
+          <div>
+            <a id="DCChild-Info" href="/about/" title="">
+            <i class="fa-solid fa-info-circle"></i>'网站信息'
+            </a>
+          </div>
         </div>
-      </div>
+      </div> -->
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 

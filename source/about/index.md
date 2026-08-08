@@ -56,7 +56,7 @@ comment: true
     background: linear-gradient(to left, #008fff 0%, #ff2333 100%);
     font-size: 0.7rem;
     white-space:pre;
-    font-family: Consolas, monospace;
+    font-family: Consolas, "SF Mono", "Noto Sans Mono", monospace;
     text-align:center;
     overflow-x:scroll;
   }
