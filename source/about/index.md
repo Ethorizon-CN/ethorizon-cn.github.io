@@ -1,8 +1,8 @@
 ---
+comment: true
 date: '2026-06-30T19:12:29+08:00'
 title: 关于
-updated: '2026-07-26T15:11:59.882+08:00'
-comment: true
+updated: '2026-08-09T20:38:49.819+08:00'
 ---
 ## 简介
 
@@ -21,34 +21,34 @@ comment: true
 
 1. **Q** - 全站字体？
    **A** - 主要字体：由[蒙纳字库（Monotype）](https://cn.monotype-asia.com/)为腾讯定制的中文/假名/西文字体腾讯体W7和腾讯体W3。
- {% callout type="warn" title="使用说明" %}
- 由于该字体为非商免字体，故切忌用于商业用途，如若违反后果自负。[字体说明](https://cn.monotype-asia.com/portfolio/tencent-sans)
- {% endcallout %}
- 代码块字体：GitHub开源字体Hack。[GitHub仓库](https://github.com/source-foundry/Hack)
-
-1. **Q** - 下面的字符画怎么做的？
+   {% callout type="warn" title="使用说明" %}
+   由于该字体为非商免字体，故切忌用于商业用途，如若违反后果自负。[字体说明](https://cn.monotype-asia.com/portfolio/tencent-sans)
+   {% endcallout %}
+   代码块字体：GitHub开源字体Hack。[GitHub仓库](https://github.com/source-foundry/Hack)
+2. **Q** - 下面的字符画怎么做的？
    **A** - 这种字符画就是ASCII Art/CLI Banner，网上随便搜一下就有，找个喜欢的字体复制一下就可以了。
- {% callout type="info" title="使用说明" %}
- ASCII Art高度依赖每行字符的一一对应，因而如果你希望在不同设备上都能呈现良好的效果，请使用等宽字体或在生成时选择包含等宽字符的版本。
- {% endcallout %}
+   {% callout type="info" title="使用说明" %}
+   ASCII Art高度依赖每行字符的一一对应，因而如果你希望在不同设备上都能呈现良好的效果，请使用<ruby>等宽字体<rp>（</rp><rt>Monospace</rt><rp>）</rp></ruby>或在生成时选择包含等宽字符的版本。
+   {% endcallout %}
 
 ...
 
 ## 鸣谢
 
-1. [Redefine主题](https://github.com/EvanNotFound/hexo-theme-redefine)[及其作者](https://ohevan.com/) ~~- ！？强强？！~~ 
-2. [DigitalPlat](https://digitalplat.org/) - 提供了免费二级域名 ~~免费的那还说啥了~~ 
-3. [Cloudflare](https://cloudflare.com) - 提供了免费静态页面托管服务 ~~克劳德弗莱尔赛博大善人的名号可不是白来的（）~~ 
+1. [Redefine主题](https://github.com/EvanNotFound/hexo-theme-redefine)[及其作者](https://ohevan.com/) ~~- ！？强强？！~~
+2. [DigitalPlat](https://digitalplat.org/) - 提供了免费二级域名 ~~免费的那还说啥了~~
+3. [Cloudflare](https://cloudflare.com) - 提供了免费静态页面托管服务 ~~克劳德弗莱尔赛博大善人的名号可不是白来的（）~~
 4. [MCBLOCK方块工坊壁纸站](https://mcblock.top/wallpapers) - 提供了极精美的MC壁纸
 5. [DeepSeek](https://deepseek.com/) - 给予了代码上的帮助
-6. [chengfeng3012](https://cf3012.cn) - 博客给予了我一定的参考 ~~虽说是在他本人并不知情的情况下~~ 
+6. [chengfeng3012](https://cf3012.cn) - 博客给予了我一定的参考 ~~虽说是在他本人并不知情的情况下~~
 7. [LightMC](https://lightmc.dpdns.org/) ~~- 教然后知困~~
 
 ...
 
 ——致以由衷的感谢，没有他们也就不会有现在的[etherform.dpdns.org](/)。
 
-如果你有什么想对我说的，又或是~~吐槽石山代码~~吐槽本站的bug，可以[联系我](/)或直接在下面评论~
+如果你有什么想对我说的，又或是吐槽<ruby>本站的bug<rp>~~</rp><rt>石山代码</rt><rp>~~</rp></ruby>，可以[联系我](/)或直接在下面评论~
+
 <style>
   #asciiArt {
     padding-left: var(--left-right-edge-fade-region);
@@ -64,6 +64,7 @@ comment: true
     width: 0px;
   }
 </style>
+
 <div>
   <div style='color: #55aaff'>Powered by</div>
   <div id='asciiArt' class='left-right-edge-fade'></div>
