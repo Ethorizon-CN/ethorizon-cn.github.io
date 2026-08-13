@@ -170,10 +170,15 @@
       description: 数码视频领域自媒体公司
       image: https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg@128w_128h_1c_1s.webp
 
+    - name: 凛冬督学局
+      link: https://redwatch.top/
+      description: 凛冬督学局（Red Watch Tutor）是一款苏维埃主题的番茄钟专注网页工具。开启工作时段后，苏军督学官随机入场巡查，通过自动巡查判定判断你是否在认真学习——玩手机、离岗、打瞌睡当场记过。用游戏化的紧张感，帮助考研、备考、自习与居家办公的同志保持专注。
+      image: https://redwatch.top/icons/icon-192-v2.png
+
     - name: SCP基金会中文维基
       link: https://scpfoundation.fandom.com/zh/wiki/SCP%E5%9F%BA%E9%87%91%E4%BC%9A%E4%B8%AD%E6%96%87_Wiki
       description: 声明：该维基中所有内容皆为虚构内容，请勿当真！|SCP基金会中文维基是一个关于SCP基金会的中文百科全书，提供SCP文档、故事和相关资料的详细信息。
-      image: https://static.wikia.nocookie.net/scp/images/e/e6/Site-logo.png/revision/latest?cb=20260331170016
+      image: /assets/images/Site-logo.webp
 
     - name: chengfeng3012
       link: https://cf3012.cn
