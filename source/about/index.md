@@ -49,6 +49,7 @@ updated: '2026-08-09T21:32:50.407+08:00'
 
 如果你有什么想对我说的，又或是吐槽本站的<ruby>bug<rt>~~石山代码~~</rt></ruby>，可以[联系我](/)或直接在下面评论~
 
+<link rel="stylesheet" href="/assets/fonts/Consolas/Consolas.css" />
 <style>
   #asciiArt {
     padding-left: var(--left-right-edge-fade-region);
@@ -56,7 +57,7 @@ updated: '2026-08-09T21:32:50.407+08:00'
     background: linear-gradient(to left, #008fff 0%, #ff2333 100%);
     font-size: 0.7rem;
     white-space:pre;
-    font-family: Consolas, "SF Mono", "Noto Sans Mono", monospace;
+    font-family: "Consolas", "SF Mono", "Noto Sans Mono", monospace;
     text-align:center;
     overflow-x:scroll;
   }
