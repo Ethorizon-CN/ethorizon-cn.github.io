@@ -137,6 +137,11 @@
 - category: AI
   icon: fa-robot # 工具分类的图标
   items:
+    - name: DeepSeek Harness
+      link: https://www.deepseek.com/harness/
+      description: 由DeepSeek官方开源的Agent“一切皆插件”运行环境
+      image: https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/web/public/favicon.svg
+    
     - name: DeepSeek
       link: https://deepseek.com/
       description: 杭州深度求索人工智能基础技术研究有限公司推出的AI助手
@@ -161,6 +166,11 @@
       link: https://gemini.google.com/
       description: 2023年12月谷歌推出的人工智能多模态大模型
       image: https://assets.ohevan.com/img/e9ec153676355307aa703869c83ad3d7.webp
+      
+    - name: 图灵测试
+      link: https://www.anyanygame.com/turing-test/
+      description: 对方是真人还是AI？|用于测试机器是否能够表现出与人类相似或无法区分的智能行为的测试
+      image: https://www.anyanygame.com/favicon.ico
 
 - category: 其它
   icon: fa-ellipsis
