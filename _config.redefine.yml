@@ -758,17 +758,14 @@ inject:
        ░░░░░░░░░░    ░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░      ░░░░░      ░░░░░░   ░░░░░     ░░░░░ ░░░ ░░░░░    ░░░░░    ░░░░░     ░░░░░ 
       \n%cand more.See https://etherform.dpdns.org/about.`,'color: #55ffff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color: #55ffff');
         setTimeout(() => {
-          // const notyf = new Notyf({duration: 2000, position: {x: 'right', y: 'top'},types:[{type: 'welcome', background: '#008fff', icon: false }]});
+          const notyf = new Notyf({duration: 2000, position: {x: 'right', y: 'top'},types:[{type: 'welcome', background: '#008fff', icon: false }]});
           
-          toastr.options = {
-              positionClass: "toast-top-right",
-              progressBar: true
-            };
+          // toastr.options = {positionClass: "toast-top-right",progressBar: true};
             
             
-          // notyf.open({type:'welcome', message: '欢迎来到EtherformTM的个人博客！\nPowered by Hexo & Redefine.'});
+          notyf.open({type:'welcome', message: '欢迎来到EtherformTM的个人博客！\nPowered by Hexo & Redefine.'});
           
-          toastr.info('欢迎来到EtherformTM的个人博客！\nPowered by Hexo & Redefine.','', {timeOut: 2000});
+          // toastr.info('欢迎来到EtherformTM的个人博客！\nPowered by Hexo & Redefine.','', {timeOut: 2000});
           
           
         }, 3000);
