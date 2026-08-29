@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 lang: zh-CN
+=======
+abbrlink: ''
+>>>>>>> 297d3840b2c8ee0891dde6b72621ea57320fadce
 categories:
 - 学科
 date: '2026-07-06T16:08:57+08:00'
@@ -27,7 +31,11 @@ updated: '2026-08-22T15:45:44.645+08:00'
 
 {% endfolding %}
 
+<<<<<<< HEAD
 <iframe src="https://www.desmos.com/geometry/fldemv2bnl" title="Desmos嵌入页面" style="width: 100%; height: 800px;"></iframe>
+=======
+<iframe  src="https://www.desmos.com/geometry/fldemv2bnl" title="Desmos嵌入页面" style="width: 100%; height: 800px;"></iframe>
+>>>>>>> 297d3840b2c8ee0891dde6b72621ea57320fadce
 
 ## 实现
 
