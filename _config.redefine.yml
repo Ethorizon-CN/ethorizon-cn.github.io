@@ -207,26 +207,35 @@ navbar:
     pages: 1000px #other pages
   # Navbar links
   links:
-    百宝箱: 
+    treasure-box: 
       path: /treasure-box/
       icon: fa-regular fa-toolbox # can be empty
       #three-body simulation,shared drawing board...
-    博客: 
+    blogs: 
       icon: fa-regular fa-newspaper
       submenus:
-        归档: /archives/
-        分类: /categories/
-        标签: /tags/
-    友链: 
+        archives: /archives/
+        categories: /categories/
+        tags: /tags/
+    friends: 
       path: /links/
       icon: fa-regular fa-link
-    个人: 
+    personal: 
       icon: fa-regular fa-user
       submenus:
-        相册: /gallery/
-        时间线: /timeline/
-        技术栈: /tech-stack/
-        关于: /about/
+        gallery: /gallery/
+        timeline: /timeline/
+        tech-stack: /tech-stack/
+        about: /about/
+    languages:
+      icon: fa-regular fa-globe
+      submenus:
+        简体中文: /
+        繁體中文: /zh-TW/
+        English: /en/
+        日本語: /ja/
+        Français: /fr/
+        Español: /es/
     # ...... # you can add more
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
@@ -423,7 +432,7 @@ inject:
   head: 
     - |
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
-      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.min.css">
       <style>
         /* 全局 */
         /* 自定义字体 */
@@ -630,8 +639,8 @@ inject:
       </style>
       <!-- <script src="https://clipboard.nodejs.cn/clipboard.min.js"></script> -->
       <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
-      <!-- <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script> -->
-      <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+      <script src="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.umd.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script data-swup-reload-script type="text/javascript">
         // 此处写入每次切页&重新加载时都会执行的代码
         (function () {
@@ -758,28 +767,16 @@ inject:
        ░░░░░░░░░░    ░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░      ░░░░░      ░░░░░░   ░░░░░     ░░░░░ ░░░ ░░░░░    ░░░░░    ░░░░░     ░░░░░ 
       \n%cand more.See https://etherform.dpdns.org/about.`,'color: #55ffff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color: #55ffff');
         setTimeout(() => {
-          const notyf = new Notyf({
-            duration: 2000,
-            position: {
-              x: 'right',
-              y: 'top'
-            },
-            types: [
-              {
-                type: 'welcome',
-                background: '#008fff',
-                icon: false
-              }
-            ]
-          });
-          notyf.open({
-            type:'welcome',
-            message: '欢迎来到EtherformTM的个人博客！\nPowered by Hexo & Redefine.'
-          });
-          // Toastify({
-          //   text: "欢迎来到EtherformTM的个人博客！\nPowered by Hexo & Redefine.",
-          //   duration: 3000
-          // }).showToast();
+          const notyf = new Notyf({duration: 2000, position: {x: 'right', y: 'top'},types:[{type: 'welcome', background: '#008fff', icon: false }]});
+          
+          // toastr.options = {positionClass: "toast-top-right",progressBar: true};
+            
+            
+          notyf.open({type:'welcome', message: '欢迎来到EtherformTM的个人博客！\nPowered by Hexo & Redefine.'});
+          
+          // toastr.info('欢迎来到EtherformTM的个人博客！\nPowered by Hexo & Redefine.','', {timeOut: 2000});
+          
+          
         }, 3000);
       </script>
   # Inject custom footer html code
@@ -876,7 +873,7 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: true
+  enable: false
   # CDN Provider
   provider: aliyun # npmmirror, zstatic, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL

@@ -1,18 +1,33 @@
 ---
-abbrlink: ''
-categories: ['学科']
+lang: zh-CN
+categories:
+- 学科
 date: '2026-07-06T16:08:57+08:00'
 expires: '2027-01-06T16:08:57+08:00'
-sticky: 10
-tags: ['N体问题模拟', 'Desmos', 'PoC', '欧拉法']
-title: 基于Desmos的欧拉法N体问题模拟
-updated: '2026-07-23T12:11:44.202+08:00'
 mathjax: true
+sticky: 10
+tags:
+- N体问题模拟
+- Desmos
+- PoC
+- 欧拉法
+title: 基于Desmos的欧拉法N体问题模拟
+updated: '2026-08-22T15:45:44.645+08:00'
 ---
 ## 前言
 
-本文将以由实到虚的顺序以Desmos为PoC介绍欧拉法N体问题一步步的实现，最终效果详见[Demo](https://www.desmos.com/geometry/fldemv2bnl)。
+本文将以由实到虚的顺序以Desmos为PoC介绍欧拉法N体问题一步步的实现，最终效果详见[Demo](https://www.desmos.com/geometry/fldemv2bnl)或如下Desmos嵌入页面。
 ~~不用RK4其实主要是因为技术力不够~~
+
+{% folding title="一些给Desmos小白的啸提示" class="blue" open="true" %}
+
+1. **点击"Run"左侧的计时器以开始模拟**
+2. **可在“属性”文件夹中修改如星体数量等数据**
+3. **如果觉得表达式列表挡视野的话，可以点表达式列表右上角的双箭头将其收起**
+
+{% endfolding %}
+
+<iframe src="https://www.desmos.com/geometry/fldemv2bnl" title="Desmos嵌入页面" style="width: 100%; height: 800px;"></iframe>
 
 ## 实现
 

@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: EtherformTM的个人网站|無限進步
-subtitle: ''
+title: EtherformTM的个人网站
+subtitle: 無限進步
 description: "EtherformTM's Personal Website"
-keywords: [Etherform, Personal Website, 無限進步]
+keywords: [Etherform, EtherformTM, Personal Website, Blog, Hexo, Redefine, hexo-theme-redefine, etherform.dpdns.org, zh-CN, Minecraft, MC, JavaScript, HTML, CSS, Frontend, 前端, Waline, 無限進步]
 author: EtherformTM
 language:
   - zh-CN
@@ -19,7 +19,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://ethorizon.dpdns.org
+url: https://etherform.dpdns.org
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -118,3 +118,7 @@ mathjax:
   normal_width: 0.6 # relative normal (monospace) width
   append_css: true # add CSS to every page
   every_page: false # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article
+
+i18n:
+  type: [page, post]
+  generator: [archive, category, tag, index]
