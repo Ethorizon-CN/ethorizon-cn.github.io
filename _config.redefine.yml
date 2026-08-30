@@ -752,7 +752,7 @@ inject:
                   item.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
                 );
                 const regex = new RegExp(`^/(${escapedItems.join('|')})`);
-                return currentURL.replace(regex, '');
+                return url.replace(regex, '');
               };
               if (lang === LANG_MAP[0]) {
                 swup.navigate(trimURL(currentURL));
@@ -760,7 +760,6 @@ inject:
                 swup.navigate(`/${lang}${trimURL(currentURL)}`);
               }
             };
-
           };
 
 
