@@ -2,16 +2,16 @@
 comment: true
 date: '2026-06-30T19:12:29+08:00'
 title: About
-updated: '2026-08-30T20:21:19.048+08:00'
+updated: '2026-08-30T20:28:56.025+08:00'
 ---
 ## Introduction
 
 This site is the personal blog website of EtherformTM, built with [Hexo](https://hexo.io) theme [Redefine](https://github.com/EvanNotFound/hexo-theme-redefine), and enhanced with custom content via its HTML injection feature.
-{% callout type="info" title="Access%20Notes" %}
+{% callout type="info" title="Access-Notes" %}
 Since this site involves GitHub and Cloudflare, slower loading speeds are normal. [GitHub Repository](https://github.com/Ethorizon-CN/ethorizon-cn.github.io)
 {% endcallout %}
 
-{% callout type="info" title="To%20Copyright%20Holders" %}
+{% callout type="info" title="To-Copyright-Holders" %}
 
 All content on this site is open-sourced on GitHub and has no commercial nature or potential value, nor will it be used for commercial purposes. I do not seek any commercial gain from it. If there is indeed infringement, please [contact me to remove it](/); contact details can be found at the bottom right of the first screen on the homepage.
 
