@@ -2,7 +2,7 @@
 comment: true
 date: '2026-06-30T19:12:29+08:00'
 title: À propos
-updated: '2026-08-30T15:08:16.811+08:00'
+updated: '2026-08-30T20:32:03.161+08:00'
 ---
 ## Introduction
 
@@ -17,7 +17,7 @@ Tout le contenu de ce site est open source sur GitHub et n'a aucune nature comme
 
 {% endcallout %}
 
-## Foire aux questions (même si personne ne demandera probablement)
+## Foire aux questions ~~même si personne ne demandera probablement~~
 
 1. **Q** - Quelle police est utilisée sur tout le site ?
    **R** - Police principale : TencentSans W7 et TencentSans W3, une police chinoise, kana et latine personnalisée conçue par [Monotype](https://monotype.com) pour Tencent.
