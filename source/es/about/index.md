@@ -2,7 +2,7 @@
 comment: true
 date: '2026-06-30T19:12:29+08:00'
 title: Acerca de
-updated: '2026-08-30T15:07:58.374+08:00'
+updated: '2026-08-30T20:30:19.011+08:00'
 ---
 ## Introducción
 
@@ -17,7 +17,7 @@ Todo el contenido de este sitio es de código abierto en GitHub y no tiene natur
 
 {% endcallout %}
 
-## Preguntas frecuentes (aunque probablemente nadie pregunte)
+## Preguntas frecuentes ~~aunque probablemente nadie pregunte~~
 
 1. **P** - ¿Qué fuente se usa en todo el sitio?
    **R** - Fuente principal: TencentSans W7 y TencentSans W3, una fuente personalizada china, kana y latina diseñada por [Monotype](https://monotype.com) para Tencent.
