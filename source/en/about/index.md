@@ -7,11 +7,11 @@ updated: '2026-08-30T20:35:38.058+08:00'
 ## Introduction
 
 This site is the personal blog website of EtherformTM, built with [Hexo](https://hexo.io) theme [Redefine](https://github.com/EvanNotFound/hexo-theme-redefine), and enhanced with custom content via its HTML injection feature.
-{% callout type="info" title="Access notes" %}
+{% callout type="info" title="Access Notes" %}
 Since this site involves GitHub and Cloudflare, slower loading speeds are normal. [GitHub Repository](https://github.com/Ethorizon-CN/ethorizon-cn.github.io)
 {% endcallout %}
 
-{% callout type="info" title="To copyright holders" %}
+{% callout type="info" title="To Copyright Holders" %}
 
 All content on this site is open-sourced on GitHub and has no commercial nature or potential value, nor will it be used for commercial purposes. I do not seek any commercial gain from it. If there is indeed infringement, please [contact me to remove it](/); contact details can be found at the bottom right of the first screen on the homepage.
 
