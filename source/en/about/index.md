@@ -2,7 +2,7 @@
 comment: true
 date: '2026-06-30T19:12:29+08:00'
 title: About
-updated: '2026-08-30T15:07:14.366+08:00'
+updated: '2026-08-30T20:21:19.048+08:00'
 ---
 ## Introduction
 
@@ -47,7 +47,7 @@ All content on this site is open-sourced on GitHub and has no commercial nature 
 
 — Sincere thanks to all of them; without them, [etherform.dpdns.org](/) would not exist.
 
-If you have something to say to me, or want to complain about a <ruby>bug<rp>（</rp><rt>~~spaghetti code~~</rt><rp>）</rp></ruby> on this site, feel free to [contact me](/) or leave a comment below~
+If you have something to say to me, or want to complain about <ruby>bugs<rp>（</rp><rt>~~spaghetti code~~</rt><rp>）</rp></ruby> of this site, feel free to [contact me](/) or leave a comment below~
 
 <link rel="stylesheet" href="/assets/fonts/Consolas/Consolas.css" />
 <style>
