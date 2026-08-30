@@ -2,7 +2,7 @@
 comment: true
 date: '2026-06-30T19:12:29+08:00'
 title: 關於
-updated: '2026-08-09T21:32:50.407+08:00'
+updated: '2026-08-30T15:06:32.289+08:00'
 ---
 ## 簡介
 
@@ -47,7 +47,7 @@ updated: '2026-08-09T21:32:50.407+08:00'
 
 ——致以由衷的感謝，沒有他們也就不會有現在的 [etherform.dpdns.org](/)。
 
-如果你有什麼想對我說的，又或是吐槽本站的<ruby>bug<rt>~~石山程式碼~~</rt></ruby>，可以[聯繫我](/)]或直接在下面評論~
+如果你有什麼想對我說的，又或是吐槽本站的<ruby>bug<rt>~~石山程式碼~~</rt></ruby>，可以[聯繫我](/)或直接在下面評論~
 
 <link rel="stylesheet" href="/assets/fonts/Consolas/Consolas.css" />
 <style>
