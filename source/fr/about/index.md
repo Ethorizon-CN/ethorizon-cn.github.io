@@ -1,8 +1,8 @@
 ---
 comment: true
 date: '2026-06-30T19:12:29+08:00'
-title: À propos
-updated: '2026-08-09T21:32:50.407+08:00'
+title: À propos
+updated: '2026-08-30T15:08:16.811+08:00'
 ---
 ## Introduction
 
@@ -47,7 +47,7 @@ Tout le contenu de ce site est open source sur GitHub et n'a aucune nature comme
 
 — Un sincère merci à tous ; sans eux, [etherform.dpdns.org](/) n'existerait pas.
 
-Si vous avez quelque chose à me dire, ou si vous voulez vous plaindre d'un <ruby>bug<rp>（</rp><rt>~~code spaghetti~~</rt><rp>）</rp></ruby> sur ce site, n'hésitez pas à [me contacter](/)] ou à laisser un commentaire ci-dessous~
+Si vous avez quelque chose à me dire, ou si vous voulez vous plaindre d'un <ruby>bug<rp>（</rp><rt>~~code spaghetti~~</rt><rp>）</rp></ruby> sur ce site, n'hésitez pas à [me contacter](/) ou à laisser un commentaire ci-dessous~
 
 <link rel="stylesheet" href="/assets/fonts/Consolas/Consolas.css" />
 <style>
