@@ -854,14 +854,24 @@ plugins:
     audios:
       - name: Alpha # audio name
         artist: C418 # audio artist
-        url: /assets/audios/C418 - Alpha.mp4 # audio url
+        url: /assets/audios/C418 - Alpha.mp3 # audio url
         cover: /assets/images/C418 - Alpha.jpg # audio cover url
         lrc: /assets/lyrics/C418 - Alpha.lrc # audio cover lrc
-#      - name: # audio name
-#        artist: # audio artist
-#        url: # audio url
-#        cover: # audio cover url
-#        lrc: # audio cover lrc
+      - name: Abiogenesis # audio name
+        artist: Juggernaut. # audio artist
+        url: /assets/audios/Juggernaut. - Abiogenesis.mp3 # audio url
+        cover: /assets/images/Juggernaut. - Abiogenesis.jpg # audio cover url
+        lrc: /assets/lyrics/Juggernaut. - Abiogenesis.lrc # audio cover lrc
+      - name: Still Shining # audio name
+        artist: Mayonazy,重音テト # audio artist
+        url: /assets/audios/Mayonazy,重音テト - Still Shining (feat. 重音テト).mp3 # audio url
+        cover: /assets/images/Mayonazy,重音テト - Still Shining (feat. 重音テト).jpg # audio cover url
+        lrc: /assets/lyrics/Mayonazy,重音テト - Still Shining (feat. 重音テト).lrc # audio cover lrc
+      - name: North Star (feat. Casey Cook) # audio name
+        artist: SABAI # audio artist
+        url: /assets/audios/SABAI - North Star (feat. Casey Cook).mp3 # audio url
+        cover: /assets/images/SABAI - North Star (feat. Casey Cook).jpg # audio cover url
+        lrc: /assets/lyrics/SABAI - North Star (feat. Casey Cook).lrc # audio cover lrc
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:

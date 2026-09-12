@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 418 175" style="transform: skewX(160deg);">
+    <path d="M56 4 
+    h -52 v 92 h 52
+    M 4 46
+    h 396
+    M 68 34
+    v 62 h 8
+    M 88 4
+    v 142 m 38 -96 v 46
+    M 138 74
+    h 38 v -24 m -38 0 v 46 h 38
+    M 188 50
+    v 46
+    M 242 4
+    h -10 v 167
+    M 274 50
+    v 46 h 38 v -46
+    M 324 50
+    v 46
+    M 324 50
+    v 46
+    M 368 50
+    v 71 m 14 -71 v 46 m 18 -46 v 46 h 8
+    M 348 4
+    h 28 m 0 12 v 28
+    M 348 4
+    v 34 m 12 -34 v 20 m 12 -20 v 34
+    " fill="none" stroke="#000" stroke-width="8" stroke-linecap="square"/>
+</svg>
