@@ -99,7 +99,7 @@ global:
   # Whether to enable open graph
   open_graph:
     enable: true
-    image: /assets/images/defaultbg.png  # default og:image
+    image: /assets/images/light2_ranjin.png  # default og:image
     description: EtherformTM的小窝
   # Google Analytics
   google_analytics:
@@ -131,8 +131,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /assets/images/light1.jpg # light mode
-    dark: /assets/images/dark1.jpg # dark mode
+    light: /assets/images/light2_ranjin.png # light mode
+    dark: /assets/images/dark5.jpg # dark mode
   # Home banner title
   title: EtherformTM
   # Home banner subtitle
