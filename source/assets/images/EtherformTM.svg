@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 458 175" width="468" height="175" style="transform: skewX(160deg);">
     <defs>
-      <linearGradient id="fadeOut">
-        <stop offset="0%" stop-color=""/>
+      <linearGradient id="blueFadeOut">
+        <stop offset="0%" stop-color="#008fff"/>
+        <stop offset="100%" stop-color="transparent">
       </linearGradient>
     </defs>
     <path d="M56 4 
@@ -29,5 +30,5 @@
     " fill="none" stroke="#000" stroke-width="8" stroke-linecap="square"/>
   <path d="
     M 242 4
-    h -10 v 167" fill="none" stroke="#008fff" stroke-width="8" stroke-linecap="square"></path>
+    h -10 v 167" fill="none" stroke="url(#blueFadeOut)" stroke-width="8" stroke-linecap="square"/>
 </svg>
