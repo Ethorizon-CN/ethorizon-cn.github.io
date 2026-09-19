@@ -27,7 +27,7 @@ defaults:
   # Favicon
   favicon: /assets/images/avatar.png
   # Site logo
-  logo: 
+  logo: /assets/images/EtherformTM.svg
   # Site avatar
   avatar: /assets/images/avatar.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
