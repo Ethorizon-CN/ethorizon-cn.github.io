@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 458 175" style="transform: skewX(160deg);">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 458 175" width="468" height="175" style="transform: skewX(160deg);">
+    <defs>
+      <linearGradient id="fadeOut">
+        <stop offset="0%" stop-color=""/>
+      </linearGradient>
+    </defs>
     <path d="M56 4 
     h -52 v 92 h 52
     M 4 50
@@ -11,8 +16,6 @@
     h 38 v -24 m -38 0 v 46 h 38
     M 188 50
     v 46
-    M 242 4
-    h -10 v 167
     M 274 50
     v 46 h 38 v -46
     M 324 50
@@ -24,4 +27,7 @@
     M 384 4
     v 34 m 12 -34 v 20 m 12 -20 v 34
     " fill="none" stroke="#000" stroke-width="8" stroke-linecap="square"/>
+  <path d="
+    M 242 4
+    h -10 v 167" fill="none" stroke="#008fff" stroke-width="8" stroke-linecap="square"></path>
 </svg>
