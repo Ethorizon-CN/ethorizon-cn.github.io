@@ -641,6 +641,7 @@ inject:
       <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.umd.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script>const htContent = fetch('https://tmini.net/api/today?type=json').then(r => r.json());</script>
       <script data-swup-reload-script type="text/javascript">
         // 此处写入每次切页&重新加载时都会执行的代码
         (function () {
@@ -782,7 +783,6 @@ inject:
        ██████████  ░░█████  ████ █████░░██████  █████      █████    ░░██████   █████     █████░███ █████    █████    █████     █████ 
        ░░░░░░░░░░    ░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░      ░░░░░      ░░░░░░   ░░░░░     ░░░░░ ░░░ ░░░░░    ░░░░░    ░░░░░     ░░░░░ 
       \n%cand more.See https://etherform.dpdns.org/about.`,'color: #55ffff','background: #008fff; background: linear-gradient(to left, #008fff 0%, #ff2333 100%);','color: #55ffff');
-      const htContent = fetch('https://tmini.net/api/today?type=json').then(r => r.json());
         setTimeout(() => {
           const notyf = new Notyf({duration: 2000, position: {x: 'right', y: 'top'},types:[{type: 'welcome', background: '#008fff', icon: false }]});
           
