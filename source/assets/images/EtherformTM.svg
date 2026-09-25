@@ -1,35 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 458 175" width="468" height="175" style="transform: skewX(160deg);">
-    <defs>
-      <linearGradient id="blueFadeOut" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="#008fff" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#008fff" stop-opacity="0"/>
-      </linearGradient>
-    </defs>
-    <path d="M56 4 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 425 175" width="475" height="175" style="transform: skewX(160deg);">
+  <defs>
+    <linearGradient id="blueFadeOut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#008fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#008fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="blackFadeOut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="1"/>
+      <stop offset="1" stop-color="transparent" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="blackHorizontalFadeOut" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="1"/>
+      <stop offset="1" stop-color="transparent" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="blackBlueFadeIn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#008fff" stop-opacity="1"/>
+      <stop offset="0.75" stop-color="#008fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <style type="text/css">
+    <![CDATA[
+      path {
+        stroke-linecap: square;
+        stroke-width: 8;
+        fill: none;
+      }
+      rect {
+        stroke-linecap: square;
+        stroke-width: 8;
+      }
+    ]]>
+  </style>
+  </defs>
+  <path d="
+    M56 4 
     h -52 v 92 h 52
+
     M 4 50
     h 402
+
     M 68 34
     v 62 h 8
+
     M 88 4
-    v 142 m 38 -96 v 46
+    v 117 m 38 -71 v 46
+
     M 138 74
     h 38 v -24 m -38 0 v 46 h 38
+
     M 188 50
     v 46
-    M 242 4
-    h -10 v 142
+
     M 274 50
     v 46 h 38 v -46
+
     M 324 50
     v 46
+
     M 372 50
-    v 71 m 18 -71 v 46 m 18 -46 v 46 h 6
+    v 46 m 18 -46 v 46 m 18 -46 v 46 h 6
+
     M 350 4
     h 22 m 0 12 v 22
+
     M 384 4
     v 34 m 12 -34 v 20 m 12 -20 v 34
-    " fill="none" stroke="#000" stroke-width="8" stroke-linecap="square"/>
+  " stroke="#000"/>
   <path d="
-    M 232 146 v 25" fill="none" stroke="url(#blueFadeOut)" stroke-width="8" stroke-linecap="square"/>
+    M 242 4
+    h -10 v 142
+  " stroke="#008fff"/>
+  <rect x="228" y="149" width="8" height="25" fill="url(#blueFadeOut)"/>
+  <rect x="84" y="124" width="8" height="25" fill="url(#blackFadeOut)"/>
+  <rect x="368" y="99" width="8" height="25" fill="url(#blackFadeOut)"/>
+  <rect x="199" y="46" width="66" height="8" fill="url(#blackBlueFadeIn)"/>
+  <rect x="410" y="46" width="50" height="8" fill="url(#blackHorizontalFadeOut)"/>
 </svg>
