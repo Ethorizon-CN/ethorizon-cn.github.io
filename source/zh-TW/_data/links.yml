@@ -3,18 +3,18 @@
   list:
       - name: chengfeng3012
         link: https://www.cf3012.cn
-        description: chengfeng3012的小窝
+        description: chengfeng3012的小窩
         avatar: https://files.cf3012.eu.org/png/icon.png
         thumbnail: 
       
       - name: LightMC
         link: https://lightmc.dpdns.org
-        description: LightMC的个人博客
+        description: LightMC的個人部落格
         avatar: https://lightmc.dpdns.org/favicon.svg
         thumbnail: 
 
       - name: bobbyg6
         link: https://space.bilibili.com/3493143867558592
-        description: bobbyg6的B站空间
+        description: bobbyg6的B站空間
         avatar: /assets/images/bobbyg6.jpg
         thumbnail:

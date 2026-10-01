@@ -1,0 +1,201 @@
+- category: 個人作品
+  icon: fa-face-laugh
+  items:
+    - name: 個人部落格
+      link: https://ethorizon.dpdns.org
+      description: 個人部落格
+      image: /assets/images/avatar.png
+
+    - name: 三體問題模擬[支援中]
+      link: https://www.desmos.com/geometry/1r9hlwaffh
+      description: 基於Desmos幾何的三體問題模擬器|點擊左上計時器即可開始模擬
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: 三體問題模擬-行星繞日模型[更新已停止]
+      link: https://www.desmos.com/geometry/0mimgryqdj
+      description: 基於Desmos幾何的三體行星繞日模型模擬器|點擊左上計時器即可開始模擬
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: N體問題模擬[支援中]
+      link: https://www.desmos.com/geometry/fldemv2bnl
+      description: 基於Desmos幾何的N體問題模擬器|點擊左上計時器即可開始模擬
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: 三維N體問題模擬[支援中]
+      link: https://www.desmos.com/3d/pddyntq5wc
+      description: 基於Desmos 3D圖形計算器的三維N體問題模擬器|點擊左上計時器即可開始模擬
+      image: https://www.desmos.com/assets/img/apps/3d/favicon.ico
+
+- category: MINECRAFT
+  icon: fa-gamepad
+  items:
+    - name: MINECRAFT官方網站
+      link: https://www.minecraft.net/
+      description: 一款沙盒遊戲，玩家可以在一個由方塊構成的3D世界中自由探索、建造和冒險
+      image: https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico
+
+    - name: MCJS.CC（原MC.JS.COOL）
+      link: https://mcjs.cc/
+      description: 線上玩MC!
+      image: https://mcjs.cc/favicon.png
+
+    - name: MINECRAFT中文維基百科
+      link: https://zh.minecraft.wiki/
+      description: 一個旨在收集一切有關Minecraft系列的實用資訊的公開的、可編輯的維基百科
+      image: https://zh.minecraft.wiki/favicon.ico
+
+    - name: 礦藝大典
+      link: https://lzh.minecraft.wiki/
+      description: 㢰文共撰，匯聚群科，礦藝之事典也|人話：MC文言維基百科（原文為繁體，此處已做轉換）
+      image: https://lzh.minecraft.wiki/favicon.ico
+
+    - name: MCBLOCK方塊工坊桌布站
+      link: https://mcblock.top/wallpapers
+      description: MCBLOCK方塊工坊桌布站提供 Minecraft 高畫質桌布免費下載，包含手機桌布、電腦桌布、光影截圖和建築場景等主題圖片。
+      image: https://mcblock.top/favicon.ico
+
+    - name: MCJE資料包生成器
+      link: https://misode.github.io/
+      description: 一個可快速編寫&生成MCJE資料包的線上工具（尤其見效於地形生成方面）
+      image: https://misode.github.io/assets/favicon-32-AFHRIzOg.png
+
+- category: 實用工具
+  icon: fa-toolbox
+  items:
+    - name: Desmos圖形計算器
+      link: https://www.desmos.com/calculator
+      description: 由Desmos Studio營運的一套免費線上數學工具集合|甚至可以當程式碼PoC用
+      image: https://www.desmos.com/favicon.ico
+
+    - name: Nobook虛擬實驗
+      link: https://www.nobook.com/index.html
+      description: 一個免費的線上虛擬實驗平台，提供了豐富的實驗資源和工具，支援多種學科和實驗類型
+      image: https://www.nobook.com/favicon.ico
+
+    - name: GitHub加速下載代理
+      link: https://gh-proxy.com/
+      description: GitHub加速下載代理
+
+    - name: 花生B站影片下載工具
+      link: https://peanutdl.com/zh/bilibili
+      description: 線上解析&下載B站/抖音影片
+      image: https://peanutdl.com/favicon.ico
+
+    - name: 中國內網穿透聯盟
+      link: https://内网穿透.中国/
+      description: 中國內網穿透聯盟
+      image: https://内网穿透.中国/favicon.ico
+
+    - name: JSON線上解析工具
+      link: https://www.json.cn/
+      description: 線上JSON解析工具，支援JSON格式化、壓縮、驗證等功能
+      image: https://www.json.cn/favicon.ico
+
+    - name: 線上正規表達式測試工具
+      link: https://regex101.com/
+      description: 線上正規表達式測試工具，支援多種正規表達式語法和除錯功能
+      image: https://regex101.com/favicon.ico
+
+    - name: 線上LaTeX編輯器
+      link: https://www.latexlive.com/
+      description: 線上LaTeX編輯器，支援即時預覽和匯出功能
+      image: 	https://www.latexlive.com/img/header_logo.png
+
+    - name: 線上Markdown編輯器
+      link: https://www.markdowntutorial.com/
+      description: 線上Markdown編輯器，支援即時預覽和匯出功能
+      image: https://www.markdowntutorial.com/favicon.ico
+
+    - name: WantWords萬詞王 反向詞典
+      link: https://www.wantwords.net/
+      description: WantWords萬詞王 反向詞典，支援中文和英文的反向查詢
+      image: https://www.wantwords.net/static/image/zm2.ico
+
+- category: PaaS平台
+  icon: fa-cloud
+  items:
+    - name: GitHub
+      link: https://github.com/
+      description: 全球最大的開源程式碼代管平台
+      image: https://assets.ohevan.com/img/4765a6ec1eed834a948291c44d34c9a0.jpeg?resize=701%2C701
+
+    - name: Gitee
+      link: https://gitee.com/
+      description: 國內最大的開源程式碼代管平台
+      image: https://gitee.com/favicon.ico
+    
+    - name: Vercel
+      link: https://vercel.com/
+      description: 全球領先的前端應用代管&雲端開發平台
+      image: https://assets.ohevan.com/img/aad702a57baaa7dbd17e896342f5f0a0.png
+
+    - name: CloudFlare
+      link: https://www.cloudflare.com/
+      description: CDN、雲端運算&雲端安全平台
+      image: https://cloudflare-cn.com/favicon.ico
+
+- category: AI
+  icon: fa-robot # 工具分類的圖示
+  items:
+    - name: DeepSeek Harness
+      link: https://www.deepseek.com/harness/
+      description: 由DeepSeek官方開源的Agent“一切皆外掛”執行環境
+      image: https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/web/public/favicon.svg
+    
+    - name: DeepSeek
+      link: https://deepseek.com/
+      description: 杭州深度求索人工智慧基礎技術研究有限公司推出的AI助手
+      image: https://deepseek.com/favicon.ico
+
+    - name: 元寶
+      link: https://yuanbao.com/
+      description: 騰訊推出的AI助手
+      image: https://yuanbao.tencent.com/favicon.ico
+
+    - name: Claude
+      link: https://www.anthropic.com/
+      description: Anthropic發布的大型語言模型
+      image: https://www.anthropic.com/favicon.ico
+
+    - name: ChatGPT
+      link: https://chat.openai.com # 書籤連結位址
+      description: OpenAI發布的聊天機器人模型
+      image: https://assets.ohevan.com/img/b6b13aa43b541c7a8331d76978a2f9a0.png # 網站圖示位址
+    
+    - name: Gemini
+      link: https://gemini.google.com/
+      description: 2023年12月谷歌推出的人工智慧多模態大模型
+      image: https://assets.ohevan.com/img/e9ec153676355307aa703869c83ad3d7.webp
+      
+    - name: 圖靈測試
+      link: https://www.anyanygame.com/turing-test/
+      description: 對方是真人還是AI？|用於測試機器是否能夠表現出與人類相似或無法區分的智慧行為的測試
+      image: https://www.anyanygame.com/favicon.ico
+
+- category: 其它
+  icon: fa-ellipsis
+  items:
+    - name: 影視颶風
+      link: https://www.ysjf.com/index
+      description: 數位影片領域自媒體公司
+      image: https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg@128w_128h_1c_1s.webp
+
+    - name: 凜冬督學局
+      link: https://redwatch.top/
+      description: 凜冬督學局（Red Watch Tutor）是一款蘇維埃主題的番茄鐘專注網頁工具。開啟工作時段後，蘇軍督學官隨機入場巡查，透過自動巡查判定判斷你是否在認真學習——玩手機、離崗、打瞌睡當場記過。用遊戲化的緊張感，幫助考研、備考、自習與居家辦公的同志保持專注。
+      image: https://redwatch.top/icons/icon-192-v2.png
+
+    - name: SCP基金會中文維基
+      link: https://scpfoundation.fandom.com/zh/wiki/SCP%E5%9F%BA%E9%87%91%E4%BC%9A%E4%B8%AD%E6%96%87_Wiki
+      description: 聲明：該維基中所有內容皆為虛構內容，請勿當真！|SCP基金會中文維基是一個關於SCP基金會的中文百科全書，提供SCP文件、故事和相關資料的詳細資訊。
+      image: /assets/images/Site-logo.webp
+
+    - name: chengfeng3012
+      link: https://cf3012.cn
+      description: chengfeng3012的小窩
+      image: https://cf3012.cn/favicon.ico
+
+    - name: LightMC
+      link: https://lightmc.dpdns.org
+      description: LightMC的個人部落格
+      image: https://lightmc.dpdns.org/favicon.svg

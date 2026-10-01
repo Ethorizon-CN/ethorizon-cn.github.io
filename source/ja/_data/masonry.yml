@@ -1,0 +1,59 @@
+- image: /images/wallhaven-wqery6-dark.webp
+  exif: true
+  title: Redefine
+  description: Redefineテーマのデフォルトダーク背景
+
+- image: /images/wallhaven-wqery6-light.webp
+  exif: true
+  title: Redefine
+  description: Redefineテーマのデフォルトライト背景
+
+- image: /assets/images/defaultbg.png
+  exif: true
+  title: MINECRAFT壁紙
+  description: 当サイトのデフォルトMINECRAFT壁紙
+
+- image: /assets/images/light1.jpg
+  exif: true
+  title: MINECRAFTライト壁紙#1
+  description: 当サイトのMINECRAFTライト壁紙#1
+
+- image: /assets/images/light2_ranjin.png
+  exif: true
+  title: MINECRAFTライト壁紙#2 - 染尽
+  description: 「染尽」 - MC壁紙サイトより
+
+- image: /assets/images/light3_greatwall1.png
+  exif: true
+  title: MINECRAFTライト壁紙#3 - 長城#1
+  description: 「長城」#1 - MC壁紙サイトより
+
+- image: /assets/images/dark1.jpg
+  exif: true
+  title: MINECRAFTダーク壁紙#1
+  description: 当サイトのMINECRAFTダーク壁紙#1
+
+- image: /assets/images/dark2.jpg
+  exif: true
+  title: MINECRAFTダーク壁紙#2
+  description: 当サイトのMINECRAFTダーク壁紙#2
+
+- image: /assets/images/dark3.jpg
+  exif: true
+  title: MINECRAFTダーク壁紙#3
+  description: 当サイトのMINECRAFTダーク壁紙#3
+
+- image: /assets/images/dark4.jpg
+  exif: true
+  title: MINECRAFTダーク壁紙#4
+  description: 当サイトのMINECRAFTダーク壁紙#4
+
+- image: /assets/images/dark5.jpg
+  exif: true
+  title: MINECRAFTダーク壁紙#5
+  description: 当サイトのMINECRAFTダーク壁紙#5
+
+- image: /assets/images/light4_greatwall2.png
+  exif: true
+  title: MINECRAFTダーク壁紙#6 - 長城#2
+  description: 「長城」#2 - MC壁紙サイトより

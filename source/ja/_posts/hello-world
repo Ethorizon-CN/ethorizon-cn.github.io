@@ -1,0 +1,39 @@
+---
+title: Hello World
+lang: ja
+---
+[Hexo](https://hexo.io/)へようこそ！これはあなたの最初の記事です。詳しくは[ドキュメント](https://hexo.io/docs/)をご確認ください。Hexoの使用中に問題が発生した場合は、[トラブルシューティング](https://hexo.io/docs/troubleshooting.html)に答えが載っていますし、[GitHub](https://github.com/hexojs/hexo/issues)で私に質問することもできます。
+
+## クイックスタート
+
+### 新しい記事を作成する
+
+``` bash
+$ hexo new "My New Post"
+```
+
+詳しくは：[執筆](https://hexo.io/docs/writing.html)
+
+### サーバーを起動する
+
+``` bash
+$ hexo server
+```
+
+詳しくは：[サーバー](https://hexo.io/docs/server.html)
+
+### 静的ファイルを生成する
+
+``` bash
+$ hexo generate
+```
+
+詳しくは：[生成](https://hexo.io/docs/generating.html)
+
+### リモートサイトへデプロイする
+
+``` bash
+$ hexo deploy
+```
+
+詳しくは：[デプロイ](https://hexo.io/docs/one-command-deployment.html)

@@ -1,0 +1,59 @@
+- image: /images/wallhaven-wqery6-dark.webp
+  exif: true
+  title: Redefine
+  description: Redefine theme default dark background
+
+- image: /images/wallhaven-wqery6-light.webp
+  exif: true
+  title: Redefine
+  description: Redefine theme default light background
+
+- image: /assets/images/defaultbg.png
+  exif: true
+  title: MINECRAFT Wallpaper
+  description: This site's default MINECRAFT wallpaper
+
+- image: /assets/images/light1.jpg
+  exif: true
+  title: MINECRAFT Light Wallpaper#1
+  description: This site's MINECRAFT light wallpaper#1
+
+- image: /assets/images/light2_ranjin.png
+  exif: true
+  title: MINECRAFT Light Wallpaper#2 - Ranjin
+  description: Dyeing Complete - from the MC Wallpaper Site
+
+- image: /assets/images/light3_greatwall1.png
+  exif: true
+  title: MINECRAFT Light Wallpaper#3 - Great Wall#1
+  description: Great Wall#1 - from the MC Wallpaper Site
+
+- image: /assets/images/dark1.jpg
+  exif: true
+  title: MINECRAFT Dark Wallpaper#1
+  description: This site's MINECRAFT dark wallpaper#1
+
+- image: /assets/images/dark2.jpg
+  exif: true
+  title: MINECRAFT Dark Wallpaper#2
+  description: This site's MINECRAFT dark wallpaper#2
+
+- image: /assets/images/dark3.jpg
+  exif: true
+  title: MINECRAFT Dark Wallpaper#3
+  description: This site's MINECRAFT dark wallpaper#3
+
+- image: /assets/images/dark4.jpg
+  exif: true
+  title: MINECRAFT Dark Wallpaper#4
+  description: This site's MINECRAFT dark wallpaper#4
+
+- image: /assets/images/dark5.jpg
+  exif: true
+  title: MINECRAFT Dark Wallpaper#5
+  description: This site's MINECRAFT dark wallpaper#5
+
+- image: /assets/images/light4_greatwall2.png
+  exif: true
+  title: MINECRAFT Dark Wallpaper#6 - Great Wall#2
+  description: Great Wall#2 - from the MC Wallpaper Site

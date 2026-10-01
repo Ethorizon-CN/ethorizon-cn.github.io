@@ -1,0 +1,201 @@
+- category: Œuvres personnelles
+  icon: fa-face-laugh
+  items:
+    - name: Blog personnel
+      link: https://ethorizon.dpdns.org
+      description: Blog personnel
+      image: /assets/images/avatar.png
+
+    - name: Simulation du problème à trois corps [chinois disponible]
+      link: https://www.desmos.com/geometry/1r9hlwaffh
+      description: Simulateur du problème à trois corps basé sur la géométrie Desmos|cliquez sur la minuterie en haut à gauche pour lancer la simulation
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: Simulation du problème à trois corps - modèle planétaire autour du Soleil [mise à jour arrêtée]
+      link: https://www.desmos.com/geometry/0mimgryqdj
+      description: Simulateur du modèle à trois corps de planètes autour du Soleil basé sur la géométrie Desmos|cliquez sur la minuterie en haut à gauche pour lancer la simulation
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: Simulation du problème à N corps [chinois disponible]
+      link: https://www.desmos.com/geometry/fldemv2bnl
+      description: Simulateur du problème à N corps basé sur la géométrie Desmos|cliquez sur la minuterie en haut à gauche pour lancer la simulation
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: Simulation 3D du problème à N corps [chinois disponible]
+      link: https://www.desmos.com/3d/pddyntq5wc
+      description: Simulateur 3D du problème à N corps basé sur la calculatrice graphique 3D Desmos|cliquez sur la minuterie en haut à gauche pour lancer la simulation
+      image: https://www.desmos.com/assets/img/apps/3d/favicon.ico
+
+- category: MINECRAFT
+  icon: fa-gamepad
+  items:
+    - name: Site officiel de MINECRAFT
+      link: https://www.minecraft.net/
+      description: Un jeu sandbox où les joueurs peuvent explorer, construire et partir à l'aventure librement dans un monde 3D fait de blocs
+      image: https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico
+
+    - name: MCJS.CC (anciennement MC.JS.COOL)
+      link: https://mcjs.cc/
+      description: Jouez à MC en ligne !
+      image: https://mcjs.cc/favicon.png
+
+    - name: Wikipédia chinois de MINECRAFT
+      link: https://zh.minecraft.wiki/
+      description: Une encyclopédie publique et modifiable qui vise à rassembler toutes les informations pratiques sur la série Minecraft
+      image: https://zh.minecraft.wiki/favicon.ico
+
+    - name: Le Grand Classique de l'Art minier
+      link: https://lzh.minecraft.wiki/
+      description: "Rédigé collectivement en écriture antique, rassemblant toutes les disciplines, voici le classique des arts miniers|En clair : le Wikipédia en chinois classique de MC (le texte original est en traditionnel, converti ici)"
+      image: https://lzh.minecraft.wiki/favicon.ico
+
+    - name: MCBLOCK, site de fonds d'écran de l'Atelier du bloc
+      link: https://mcblock.top/wallpapers
+      description: MCBLOCK, site de fonds d'écran de l'Atelier du bloc, propose le téléchargement gratuit de fonds d'écran Minecraft en haute définition, avec des images thématiques telles que fonds d'écran pour téléphone, pour ordinateur, captures avec shaders et scènes de constructions.
+      image: https://mcblock.top/favicon.ico
+
+    - name: Générateur de datapacks MCJE
+      link: https://misode.github.io/
+      description: Un outil en ligne pour écrire & générer rapidement des datapacks MCJE (particulièrement efficace pour la génération de terrain)
+      image: https://misode.github.io/assets/favicon-32-AFHRIzOg.png
+
+- category: Outils pratiques
+  icon: fa-toolbox
+  items:
+    - name: Calculatrice graphique Desmos
+      link: https://www.desmos.com/calculator
+      description: Un ensemble d'outils mathématiques en ligne gratuits opéré par Desmos Studio|utilisable même comme PoC de code
+      image: https://www.desmos.com/favicon.ico
+
+    - name: Expériences virtuelles Nobook
+      link: https://www.nobook.com/index.html
+      description: Une plateforme d'expériences virtuelles en ligne gratuite, offrant de riches ressources et outils expérimentaux et couvrant de nombreuses disciplines et types d'expériences
+      image: https://www.nobook.com/favicon.ico
+
+    - name: Proxy de téléchargement accéléré pour GitHub
+      link: https://gh-proxy.com/
+      description: Proxy de téléchargement accéléré pour GitHub
+
+    - name: Peanut, outil de téléchargement de vidéos YouTube
+      link: https://peanutdl.com/zh/bilibili
+      description: Analyse & téléchargement en ligne de vidéos YouTube/Douyin
+      image: https://peanutdl.com/favicon.ico
+
+    - name: Alliance chinoise de traversée de réseaux internes
+      link: https://内网穿透.中国/
+      description: Alliance chinoise de traversée de réseaux internes
+      image: https://内网穿透.中国/favicon.ico
+
+    - name: Outil d'analyse JSON en ligne
+      link: https://www.json.cn/
+      description: Outil d'analyse JSON en ligne, prenant en charge le formatage, la minification, la validation et d'autres fonctions JSON
+      image: https://www.json.cn/favicon.ico
+
+    - name: Outil de test d'expressions régulières en ligne
+      link: https://regex101.com/
+      description: Outil de test d'expressions régulières en ligne, prenant en charge de nombreuses syntaxes d'expressions régulières et fonctions de débogage
+      image: https://regex101.com/favicon.ico
+
+    - name: Éditeur LaTeX en ligne
+      link: https://www.latexlive.com/
+      description: Éditeur LaTeX en ligne, avec aperçu en temps réel et fonctions d'export
+      image: 	https://www.latexlive.com/img/header_logo.png
+
+    - name: Éditeur Markdown en ligne
+      link: https://www.markdowntutorial.com/
+      description: Éditeur Markdown en ligne, avec aperçu en temps réel et fonctions d'export
+      image: https://www.markdowntutorial.com/favicon.ico
+
+    - name: WantWords万词王, dictionnaire inverse
+      link: https://www.wantwords.net/
+      description: WantWords万词王, dictionnaire inverse prenant en charge les recherches inversées en chinois et en anglais
+      image: https://www.wantwords.net/static/image/zm2.ico
+
+- category: Plateformes PaaS
+  icon: fa-cloud
+  items:
+    - name: GitHub
+      link: https://github.com/
+      description: La plus grande plateforme d'hébergement de code open source au monde
+      image: https://assets.ohevan.com/img/4765a6ec1eed834a948291c44d34c9a0.jpeg?resize=701%2C701
+
+    - name: Gitee
+      link: https://gitee.com/
+      description: La plus grande plateforme d'hébergement de code open source de Chine
+      image: https://gitee.com/favicon.ico
+    
+    - name: Vercel
+      link: https://vercel.com/
+      description: Plateforme leader mondiale d'hébergement d'applications front-end & de développement cloud
+      image: https://assets.ohevan.com/img/aad702a57baaa7dbd17e896342f5f0a0.png
+
+    - name: CloudFlare
+      link: https://www.cloudflare.com/
+      description: Plateforme de CDN, de cloud computing & de sécurité cloud
+      image: https://cloudflare-cn.com/favicon.ico
+
+- category: IA
+  icon: fa-robot # Icône de la catégorie des outils
+  items:
+    - name: DeepSeek Harness
+      link: https://www.deepseek.com/harness/
+      description: Environnement d'exécution d'Agent « tout est plugin » open source publié par DeepSeek
+      image: https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/web/public/favicon.svg
+    
+    - name: DeepSeek
+      link: https://deepseek.com/
+      description: Assistant IA lancé par Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd.
+      image: https://deepseek.com/favicon.ico
+
+    - name: Yuanbao
+      link: https://yuanbao.com/
+      description: Assistant IA lancé par Tencent
+      image: https://yuanbao.tencent.com/favicon.ico
+
+    - name: Claude
+      link: https://www.anthropic.com/
+      description: Grand modèle de langage publié par Anthropic
+      image: https://www.anthropic.com/favicon.ico
+
+    - name: ChatGPT
+      link: https://chat.openai.com # Adresse du lien du signet
+      description: Modèle de chatbot publié par OpenAI
+      image: https://assets.ohevan.com/img/b6b13aa43b541c7a8331d76978a2f9a0.png # Adresse de l'icône du site
+    
+    - name: Gemini
+      link: https://gemini.google.com/
+      description: Grand modèle multimodal d'intelligence artificielle lancé par Google en décembre 2023
+      image: https://assets.ohevan.com/img/e9ec153676355307aa703869c83ad3d7.webp
+      
+    - name: Test de Turing
+      link: https://www.anyanygame.com/turing-test/
+      description: En face, un humain ou une IA ?|Un test servant à déterminer si une machine peut manifester un comportement intelligent semblable à celui d'un humain, voire impossible à distinguer
+      image: https://www.anyanygame.com/favicon.ico
+
+- category: Divers
+  icon: fa-ellipsis
+  items:
+    - name: Yingshi Jufeng (影视飓风)
+      link: https://www.ysjf.com/index
+      description: Entreprise de médias indépendants dans le domaine de la vidéo numérique
+      image: https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg@128w_128h_1c_1s.webp
+
+    - name: Red Watch Tutor (凛冬督学局)
+      link: https://redwatch.top/
+      description: "Red Watch Tutor (凛冬督学局) est un outil web de concentration de type Pomodoro à thème soviétique. Une fois la plage de travail lancée, un inspecteur de l'Armée soviétique entre aléatoirement en scène pour une ronde ; la ronde automatique détermine si vous travaillez vraiment — téléphone, absence du poste, somnolence : consignation immédiate. Avec la tension du jeu, il aide les camarades en préparation d'examens, de concours ou en télétravail à rester concentrés."
+      image: https://redwatch.top/icons/icon-192-v2.png
+
+    - name: Wiki chinois de la Fondation SCP
+      link: https://scpfoundation.fandom.com/zh/wiki/SCP%E5%9F%BA%E9%87%91%E4%BC%9A%E4%B8%AD%E6%96%87_Wiki
+      description: "Avertissement : tout le contenu de ce wiki est fictif, ne le prenez pas au sérieux !|Le Wiki chinois de la Fondation SCP est une encyclopédie en chinois consacrée à la Fondation SCP, offrant des informations détaillées sur les documents, les récits et les ressources associées."
+      image: /assets/images/Site-logo.webp
+
+    - name: chengfeng3012
+      link: https://cf3012.cn
+      description: Le petit nid de chengfeng3012
+      image: https://cf3012.cn/favicon.ico
+
+    - name: LightMC
+      link: https://lightmc.dpdns.org
+      description: Le blog personnel de LightMC
+      image: https://lightmc.dpdns.org/favicon.svg

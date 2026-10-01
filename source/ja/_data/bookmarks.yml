@@ -1,0 +1,201 @@
+- category: 個人作品
+  icon: fa-face-laugh
+  items:
+    - name: 個人ブログ
+      link: https://ethorizon.dpdns.org
+      description: 個人ブログ
+      image: /assets/images/avatar.png
+
+    - name: 三体問題シミュレーター[中国語対応]
+      link: https://www.desmos.com/geometry/1r9hlwaffh
+      description: Desmosジオメトリによる三体問題シミュレーター|左上のタイマーをクリックするとシミュレーションを開始できます
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: 三体問題シミュレーター-惑星の太陽周回モデル[更新停止]
+      link: https://www.desmos.com/geometry/0mimgryqdj
+      description: Desmosジオメトリによる三体の惑星太陽周回モデルシミュレーター|左上のタイマーをクリックするとシミュレーションを開始できます
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: N体問題シミュレーター[中国語対応]
+      link: https://www.desmos.com/geometry/fldemv2bnl
+      description: DesmosジオメトリによるN体問題シミュレーター|左上のタイマーをクリックするとシミュレーションを開始できます
+      image: https://www.desmos.com/assets/img/apps/geometry/favicon.ico
+
+    - name: 三次元N体問題シミュレーター[中国語対応]
+      link: https://www.desmos.com/3d/pddyntq5wc
+      description: Desmos 3Dグラフ計算機による三次元N体問題シミュレーター|左上のタイマーをクリックするとシミュレーションを開始できます
+      image: https://www.desmos.com/assets/img/apps/3d/favicon.ico
+
+- category: MINECRAFT
+  icon: fa-gamepad
+  items:
+    - name: MINECRAFT公式サイト
+      link: https://www.minecraft.net/
+      description: ブロックで構成された3D世界を自由に探索・建築・冒険できるサンドボックスゲーム
+      image: https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico
+
+    - name: MCJS.CC（旧MC.JS.COOL）
+      link: https://mcjs.cc/
+      description: オンラインでMCをプレイ！
+      image: https://mcjs.cc/favicon.png
+
+    - name: MINECRAFT中国語版Wikipedia
+      link: https://zh.minecraft.wiki/
+      description: Minecraftシリーズに関するあらゆる実用情報を収集することを目的とした、公開・編集可能なウィキペディア
+      image: https://zh.minecraft.wiki/favicon.ico
+
+    - name: 鉱芸大典
+      link: https://lzh.minecraft.wiki/
+      description: 㢰文共撰，聚彙群科，鉱芸之事典也|人話：MC漢文ウィキペディア（原文は繁体字、ここでは変換済み）
+      image: https://lzh.minecraft.wiki/favicon.ico
+
+    - name: MCBLOCKブロック工房壁紙サイト
+      link: https://mcblock.top/wallpapers
+      description: MCBLOCKブロック工房壁紙サイトでは、Minecraftの高画質壁紙を無料でダウンロードできます。スマホ壁紙、PC壁紙、シェーダー画像、建築シーンなどのテーマ画像を収録。
+      image: https://mcblock.top/favicon.ico
+
+    - name: MCJEデータパック生成ツール
+      link: https://misode.github.io/
+      description: MCJEデータパックを素早く作成・生成できるオンラインツール（特に地形生成で効果を発揮します）
+      image: https://misode.github.io/assets/favicon-32-AFHRIzOg.png
+
+- category: 便利ツール
+  icon: fa-toolbox
+  items:
+    - name: Desmosグラフ計算機
+      link: https://www.desmos.com/calculator
+      description: Desmos Studioが運営する無料のオンライン数学ツール群|コードのPoCとしても使えます
+      image: https://www.desmos.com/favicon.ico
+
+    - name: Nobook仮想実験
+      link: https://www.nobook.com/index.html
+      description: 無料のオンライン仮想実験プラットフォーム。豊富な実験リソースとツールを提供し、多様な学科・実験タイプに対応
+      image: https://www.nobook.com/favicon.ico
+
+    - name: GitHub高速ダウンロードプロキシ
+      link: https://gh-proxy.com/
+      description: GitHub高速ダウンロードプロキシ
+
+    - name: 花生Bilibili動画ダウンロードツール
+      link: https://peanutdl.com/zh/bilibili
+      description: Bilibili／抖音の動画をオンラインで解析・ダウンロード
+      image: https://peanutdl.com/favicon.ico
+
+    - name: 中国内網穿透連盟
+      link: https://内网穿透.中国/
+      description: 中国内網穿透連盟
+      image: https://内网穿透.中国/favicon.ico
+
+    - name: JSONオンライン解析ツール
+      link: https://www.json.cn/
+      description: オンラインJSON解析ツール。JSONの整形、圧縮、検証などの機能に対応
+      image: https://www.json.cn/favicon.ico
+
+    - name: オンライン正規表現テストツール
+      link: https://regex101.com/
+      description: オンライン正規表現テストツール。多様な正規表現構文とデバッグ機能に対応
+      image: https://regex101.com/favicon.ico
+
+    - name: オンラインLaTeXエディタ
+      link: https://www.latexlive.com/
+      description: オンラインLaTeXエディタ。リアルタイムプレビューとエクスポート機能に対応
+      image: 	https://www.latexlive.com/img/header_logo.png
+
+    - name: オンラインMarkdownエディタ
+      link: https://www.markdowntutorial.com/
+      description: オンラインMarkdownエディタ。リアルタイムプレビューとエクスポート機能に対応
+      image: https://www.markdowntutorial.com/favicon.ico
+
+    - name: WantWords万詞王 逆引き辞書
+      link: https://www.wantwords.net/
+      description: WantWords万詞王 逆引き辞書。中国語と英語の逆引き検索に対応
+      image: https://www.wantwords.net/static/image/zm2.ico
+
+- category: PaaSプラットフォーム
+  icon: fa-cloud
+  items:
+    - name: GitHub
+      link: https://github.com/
+      description: 世界最大のオープンソースコードホスティングプラットフォーム
+      image: https://assets.ohevan.com/img/4765a6ec1eed834a948291c44d34c9a0.jpeg?resize=701%2C701
+
+    - name: Gitee
+      link: https://gitee.com/
+      description: 中国国内最大のオープンソースコードホスティングプラットフォーム
+      image: https://gitee.com/favicon.ico
+    
+    - name: Vercel
+      link: https://vercel.com/
+      description: 世界をリードするフロントエンドアプリのホスティング＆クラウド開発プラットフォーム
+      image: https://assets.ohevan.com/img/aad702a57baaa7dbd17e896342f5f0a0.png
+
+    - name: CloudFlare
+      link: https://www.cloudflare.com/
+      description: CDN、クラウドコンピューティング＆クラウドセキュリティのプラットフォーム
+      image: https://cloudflare-cn.com/favicon.ico
+
+- category: AI
+  icon: fa-robot # ツールカテゴリのアイコン
+  items:
+    - name: DeepSeek Harness
+      link: https://www.deepseek.com/harness/
+      description: DeepSeek公式がオープンソース化した、「すべてがプラグイン」なAgent実行環境
+      image: https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/web/public/favicon.svg
+    
+    - name: DeepSeek
+      link: https://deepseek.com/
+      description: 杭州深度求索人工智能基礎技術研究有限公司が提供するAIアシスタント
+      image: https://deepseek.com/favicon.ico
+
+    - name: 元宝（ユアンバオ）
+      link: https://yuanbao.com/
+      description: テンセントが提供するAIアシスタント
+      image: https://yuanbao.tencent.com/favicon.ico
+
+    - name: Claude
+      link: https://www.anthropic.com/
+      description: Anthropicが公開した大規模言語モデル
+      image: https://www.anthropic.com/favicon.ico
+
+    - name: ChatGPT
+      link: https://chat.openai.com # ブックマークのリンク先
+      description: OpenAIが公開したチャットボットモデル
+      image: https://assets.ohevan.com/img/b6b13aa43b541c7a8331d76978a2f9a0.png # サイトアイコンのURL
+    
+    - name: Gemini
+      link: https://gemini.google.com/
+      description: 2023年12月にGoogleが発表したマルチモーダルAI大規模モデル
+      image: https://assets.ohevan.com/img/e9ec153676355307aa703869c83ad3d7.webp
+      
+    - name: チューリングテスト
+      link: https://www.anyanygame.com/turing-test/
+      description: 相手は人間かAIか？|機械が人間と似た、あるいは区別できない知的行動を示せるかをテストするための試験
+      image: https://www.anyanygame.com/favicon.ico
+
+- category: その他
+  icon: fa-ellipsis
+  items:
+    - name: 影視颶風
+      link: https://www.ysjf.com/index
+      description: デジタル動画分野のセルフメディア企業
+      image: https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg@128w_128h_1c_1s.webp
+
+    - name: 凛冬督学局
+      link: https://redwatch.top/
+      description: 凛冬督学局（Red Watch Tutor）はソビエトをテーマにしたポモドーロ・タイマーの集中支援Webツールです。作業時間を開始すると、ソ連軍の督学官がランダムに巡回し、自動判定であなたが本当に真剣に学習しているかを判断します——スマホをいじる、持ち場を離れる、居眠りをすると即座に記録されます。ゲーム的な緊張感で、受験、試験対策、自習、在宅ワークの同志たちの集中をサポートします。
+      image: https://redwatch.top/icons/icon-192-v2.png
+
+    - name: SCP財団中国語版Wiki
+      link: https://scpfoundation.fandom.com/zh/wiki/SCP%E5%9F%BA%E9%87%91%E4%BC%9A%E4%B8%AD%E6%96%87_Wiki
+      description: 注記：このウィキの内容はすべてフィクションです。本気にしないでください！|SCP財団中国語版WikiはSCP財団に関する中国語の百科事典で、SCP文書、ストーリー、関連資料の詳細を提供しています。
+      image: /assets/images/Site-logo.webp
+
+    - name: chengfeng3012
+      link: https://cf3012.cn
+      description: chengfeng3012の巣
+      image: https://cf3012.cn/favicon.ico
+
+    - name: LightMC
+      link: https://lightmc.dpdns.org
+      description: LightMCの個人ブログ
+      image: https://lightmc.dpdns.org/favicon.svg

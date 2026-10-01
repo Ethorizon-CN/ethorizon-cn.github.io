@@ -1,0 +1,59 @@
+- image: /images/wallhaven-wqery6-dark.webp
+  exif: true
+  title: Redefine
+  description: Redefine主題預設暗色背景
+
+- image: /images/wallhaven-wqery6-light.webp
+  exif: true
+  title: Redefine
+  description: Redefine主題預設亮色背景
+
+- image: /assets/images/defaultbg.png
+  exif: true
+  title: MINECRAFT桌布
+  description: 本站預設MINECRAFT桌布
+
+- image: /assets/images/light1.jpg
+  exif: true
+  title: MINECRAFT亮色桌布#1
+  description: 本站MINECRAFT亮色桌布#1
+
+- image: /assets/images/light2_ranjin.png
+  exif: true
+  title: MINECRAFT亮色桌布#2 - 染盡
+  description: “染盡” - 來自MC桌布站
+
+- image: /assets/images/light3_greatwall1.png
+  exif: true
+  title: MINECRAFT亮色桌布#3 - 長城#1
+  description: “長城”#1 - 來自MC桌布站
+
+- image: /assets/images/dark1.jpg
+  exif: true
+  title: MINECRAFT深色桌布#1
+  description: 本站的MINECRAFT暗色桌布#1
+
+- image: /assets/images/dark2.jpg
+  exif: true
+  title: MINECRAFT深色桌布#2
+  description: 本站的MINECRAFT暗色桌布#2
+
+- image: /assets/images/dark3.jpg
+  exif: true
+  title: MINECRAFT深色桌布#3
+  description: 本站的MINECRAFT暗色桌布#3
+
+- image: /assets/images/dark4.jpg
+  exif: true
+  title: MINECRAFT深色桌布#4
+  description: 本站的MINECRAFT暗色桌布#4
+
+- image: /assets/images/dark5.jpg
+  exif: true
+  title: MINECRAFT深色桌布#5
+  description: 本站的MINECRAFT暗色桌布#5
+
+- image: /assets/images/light4_greatwall2.png
+  exif: true
+  title: MINECRAFT深色桌布#6 - 長城#2
+  description: “長城”#2 - 來自MC桌布站

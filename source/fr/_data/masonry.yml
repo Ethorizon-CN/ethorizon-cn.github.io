@@ -1,0 +1,59 @@
+- image: /images/wallhaven-wqery6-dark.webp
+  exif: true
+  title: Redefine
+  description: Fond sombre par défaut du thème Redefine
+
+- image: /images/wallhaven-wqery6-light.webp
+  exif: true
+  title: Redefine
+  description: Fond clair par défaut du thème Redefine
+
+- image: /assets/images/defaultbg.png
+  exif: true
+  title: Fond d'écran MINECRAFT
+  description: Fond d'écran MINECRAFT par défaut du site
+
+- image: /assets/images/light1.jpg
+  exif: true
+  title: Fond d'écran MINECRAFT clair#1
+  description: Fond d'écran MINECRAFT clair#1 du site
+
+- image: /assets/images/light2_ranjin.png
+  exif: true
+  title: Fond d'écran MINECRAFT clair#2 - Ranjin
+  description: « Ranjin » - issu du site de fonds d'écran MC
+
+- image: /assets/images/light3_greatwall1.png
+  exif: true
+  title: Fond d'écran MINECRAFT clair#3 - Grande Muraille#1
+  description: « Grande Muraille »#1 - issu du site de fonds d'écran MC
+
+- image: /assets/images/dark1.jpg
+  exif: true
+  title: Fond d'écran MINECRAFT sombre#1
+  description: Fond d'écran MINECRAFT sombre#1 du site
+
+- image: /assets/images/dark2.jpg
+  exif: true
+  title: Fond d'écran MINECRAFT sombre#2
+  description: Fond d'écran MINECRAFT sombre#2 du site
+
+- image: /assets/images/dark3.jpg
+  exif: true
+  title: Fond d'écran MINECRAFT sombre#3
+  description: Fond d'écran MINECRAFT sombre#3 du site
+
+- image: /assets/images/dark4.jpg
+  exif: true
+  title: Fond d'écran MINECRAFT sombre#4
+  description: Fond d'écran MINECRAFT sombre#4 du site
+
+- image: /assets/images/dark5.jpg
+  exif: true
+  title: Fond d'écran MINECRAFT sombre#5
+  description: Fond d'écran MINECRAFT sombre#5 du site
+
+- image: /assets/images/light4_greatwall2.png
+  exif: true
+  title: Fond d'écran MINECRAFT sombre#6 - Grande Muraille#2
+  description: « Grande Muraille »#2 - issu du site de fonds d'écran MC
