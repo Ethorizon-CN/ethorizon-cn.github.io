@@ -479,7 +479,7 @@ inject:
           width: 0px !important;
         }
         
-        body html {
+        body, html {
           scrollbar-width: none;
         }
 
