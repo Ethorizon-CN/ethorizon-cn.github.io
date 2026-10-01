@@ -478,6 +478,10 @@ inject:
         body::-webkit-scrollbar, html::-webkit-scrollbar {
           width: 0px !important;
         }
+        
+        body html {
+          scrollbar-width: none;
+        }
 
 
         /* 图片查看器 */
