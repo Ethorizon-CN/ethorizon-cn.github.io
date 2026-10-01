@@ -13,7 +13,7 @@ tags:
 title: 草履虫也能学会的微积分教程！
 updated: '2026-10-01T14:46:35.980+08:00'
 ---
-{% callout type="warn" title=“本文尚未完成" %}
+{% callout type="warning" title=“本文尚未完成" %}
 如果你执意要阅读本文，请自行承担可能的歧义带来的影响。
 {% endcallout %}
 
