@@ -341,7 +341,7 @@ articles:
     # Placeholder image
     placeholder: /images/wallhaven-wqery6-light.webp
     # Skip directory
-    skip_dirs: []
+    skip_dirs: ["/zh-TW","/en/","/ja/","/fr/","/es/"]
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -433,6 +433,11 @@ inject:
     - |
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-plus/dist/index.css"/>
+      <!-- 导入 Vue 3 -->
+      <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
+      <!-- 导入组件库 -->
+      <script src="https://cdn.jsdelivr.net/npm/element-plus"></script>
       <style>
         /* 全局 */
         /* 自定义字体 */
