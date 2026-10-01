@@ -13,7 +13,9 @@ tags:
 title: 草履虫也能学会的微积分教程！
 updated: '2026-10-01T17:20:37.815+08:00'
 ---
-{% callout type="warning" title="本文尚未完成" %}
+{% callout type="warning" title="警告" %}
+本文尚未完成。
+
 如果你执意要阅读本文，请自行承担可能的歧义带来的影响。
 {% endcallout %}
 
@@ -106,3 +108,4 @@ EF段速度恒为$ 7~m/s$，$t=5~s$，故$s=vt=7~m/s\times{5~s}=35~m$。
 ### *圆锥侧面积公式的微积分推导
 
 ## 后记
+
