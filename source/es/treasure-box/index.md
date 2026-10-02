@@ -1,5 +1,0 @@
----
-title: Baúl de tesoros
-date: 2026-07-01 14:45:05
-template: bookmarks
----
