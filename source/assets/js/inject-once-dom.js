@@ -1,6 +1,6 @@
 // dom-dependent scripts here run only once after the page loads
 (function() {
-    const preloaderCharacterCount = theme.global.preloader.custom_message.split('').length;
+    const preloaderCharacterCount = theme.global.preloader.custom_message.length;
     const preloaderAnimationDelay = 2500 + 35*preloaderCharacterCount;
     setTimeout(() => {
         ElementPlus.ElNotification({
