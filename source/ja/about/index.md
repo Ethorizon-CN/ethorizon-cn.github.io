@@ -20,11 +20,11 @@ GitHub や Cloudflare に関連するため、読み込みが遅くなる場合�
 ## よくある質問~~とは言っても誰も聞かないでしょうが~~
 
 1. **Q** - サイト全体のフォントは？
-   **A** - メインフォント：<ruby>TencentSans<rt>テンセントサンズ</rt></ruby> W7 および <ruby>TencentSans<rt>テンセントサンズ</rt></ruby> W3。これらは<ruby>[Monotype](https://monotype.com)<rt>モノタイプ</rt></ruby>が Tencent 向けにカスタムデザインした中国語・仮名・欧文フォントです。
+   **A** - メインフォント：TencentSans W7 および TencentSans W3。これらは [Monotype](https://monotype.com)が Tencent 向けにカスタムデザインした中国語・仮名・欧文フォントです。
    {% callout type="warn" title="使用上の注意" %}
    このフォントは商用利用が許可されていません。商業目的での使用は固くお断りします。違反した場合の責任は負いかねます。[フォント詳細](https://cn.monotype-asia.com/portfolio/tencent-sans)
    {% endcallout %}
-   コードブロックフォント：GitHub のオープンソースフォント <ruby>Hack<rt>ハック</rt></ruby>。[GitHub リポジトリ](https://github.com/source-foundry/Hack)
+   コードブロックフォント：GitHub のオープンソースフォント Hack。[GitHub リポジトリ](https://github.com/source-foundry/Hack)
 2. **Q** - 下にあるアスキーアートはどうやって作ったの？
    **A** - これは ASCII Art / CLI Banner です。ネットで適当に検索すれば出てきます。好きなフォントを選んでコピペするだけです。
    {% callout type="info" title="使用上の注意" %}
@@ -47,7 +47,7 @@ GitHub や Cloudflare に関連するため、読み込みが遅くなる場合�
 
 ——心から感謝します。彼らがいなければ、今の [etherform.dpdns.org](/) は存在しませんでした。
 
-何か伝えたいことや、このサイトの<ruby>バグ<rp>（</rp><rt>スパゲッティ コード</rt><rp>）</rp></ruby>について愚痴があれば、[私に連絡する](/)か、下のコメント欄にお書きください。
+何か伝えたいことや、このサイトの<ruby>bug<rp>（</rp><rt>spaghetti code</rt><rp>）</rp></ruby>について愚痴があれば、[私に連絡する](/)か、下のコメント欄にお書きください。
 
 <link rel="stylesheet" href="/assets/fonts/Consolas/Consolas.css" />
 <style>

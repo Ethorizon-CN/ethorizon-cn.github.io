@@ -414,7 +414,7 @@ footer:
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
-  customize: '<a href="#">往昔今日</a>|<a href="#">今日节日</a>|<a href="#">昨日大事记</a>'
+  customize: '<a href="javascript:showHistoryToday();">往昔今日</a>|<a href="#">今日节日</a>|<a href="#">昨日大事记</a>'
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: false # Whether to enable
@@ -431,7 +431,7 @@ inject:
   # Inject custom head html code
   head: 
     - |
-      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.min.css"/> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.min.css"/>
 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-plus@2.9.7/dist/index.css" />
 
@@ -444,12 +444,10 @@ inject:
       <script src="https://cdn.jsdelivr.net/npm/element-plus@2.9.7/dist/index.full.min.js"></script>
 
       <!-- <script src="https://clipboard.nodejs.cn/clipboard.min.js"></script> -->
-      <!-- <script src="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.umd.min.js"></script> -->
+      <script src="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.umd.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-      <!-- 仅执行一次的js -->
-      <script src="/assets/js/inject-once.js"></script>
-      <!-- 每次页面更新都重新执行的js-iife -->
+      <script type="text/javascript" src="/assets/js/inject-once-ind.js"></script>
       <script data-swup-reload-script type="text/javascript" src="/assets/js/inject-reload.js"></script>
   # Inject custom footer html code
   footer:
@@ -492,6 +490,7 @@ inject:
           </div>
         </div>
       </div> -->
+      <script type="text/javascript" src="/assets/js/inject-once-dom.js"></script>
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
