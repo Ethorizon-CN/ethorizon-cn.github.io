@@ -15,20 +15,18 @@ updated: "2026-08-22T21:17:17.799+08:00"
 
   <!-- tab 大事年表 -->
 
-  {% raw %}
-    <div id="blogChronicleTimeline">
-      <el-timeline>
-        <el-timeline-item 
-        v-for="(activity, i) in activities"
-        :key="i"
-        :timestamp="activity.timestamp"
-        placement="top"
-        center="true">
-          <span v-text="activity.content" style="color: var(--first-text-color);"></span>
-        </el-timeline-item>
-      </el-timeline>
-    </div>
-  {% endraw %}
+  <div id="blogChronicleTimeline">
+    <el-timeline>
+      <el-timeline-item 
+      v-for="(activity, i) in activities"
+      :key="i"
+      :timestamp="activity.timestamp"
+      placement="top"
+      center="true">
+        <span v-text="activity.content" style="color: var(--first-text-color);"></span>
+      </el-timeline-item>
+    </el-timeline>
+  </div>
 
   <!-- tab GitHub提交 -->
 

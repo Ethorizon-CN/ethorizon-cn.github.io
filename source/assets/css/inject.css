@@ -29,6 +29,8 @@ body::-webkit-scrollbar, html::-webkit-scrollbar {
 
 body, html {
     scrollbar-width: none;
+    /* Invalidate the right padding when executed swal.fire(); */
+    padding-right: none !important;
 }
 
 

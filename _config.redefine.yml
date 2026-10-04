@@ -447,8 +447,8 @@ inject:
       <script src="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.umd.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-      <script type="text/javascript" src="/assets/js/inject-once-ind.js"></script>
-      <script data-swup-reload-script type="text/javascript" src="/assets/js/inject-reload.js"></script>
+      <!-- inject-head -->
+      <script src="/assets/js/inject-head.js"></script>
   # Inject custom footer html code
   footer:
     - |
@@ -490,7 +490,10 @@ inject:
           </div>
         </div>
       </div> -->
-      <script type="text/javascript" src="/assets/js/inject-once-dom.js"></script>
+
+      <!-- inject-footer -->
+      <!-- scripts here behave like data-swup-reload-script -->
+      <script src="/assets/js/inject-footer.js"></script>
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
