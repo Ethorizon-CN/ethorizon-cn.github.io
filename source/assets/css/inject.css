@@ -1,5 +1,5 @@
-/* 全局 */
-/* 自定义字体 */
+/* GLOBAL */
+/* custom font */
 * {
     font-family: "TencentSans", serif;
 }
@@ -8,21 +8,21 @@
     font-family: "Hack", "Geist Mono", Courier, monospace !important;
 }
 
-/* transition（preloader除外） */
-*:not(.letter, .odometer.odometer-auto-theme *, del.mask, .flex-col.items-start.px-2.py-2) {
+/* transition(except preloader, odometer, del block & mobile drawer) */
+*:not(.letter, .odometer.odometer-auto-theme *, del.mask, .flex-col.items-start.px-2.py-2 *) {
     transition: all 0.3s ease !important;
 }
 
 
-/* preloader区域 */
+/* preloader region */
 .ml13 * {
     font-weight: bold !important;
     justify-content: center !important;
 }
 
 
-/* 滚动条 */
-/* 隐藏滚动条 */
+/* SCROLLBAR */
+/* hide the scrollbar of body & html */
 body::-webkit-scrollbar, html::-webkit-scrollbar {
     width: 0px !important;
 }
@@ -32,14 +32,8 @@ body, html {
 }
 
 
-/* 图片查看器 */
-/* 调整按钮层级 */
-.image-viewer-prev {
-    z-index: 99;
-}
-
-/* 自定义背景图 */
-/* 亮色模式 */
+/* CUSTOM BACKGROUND IMAGES */
+/* light mode */
 body.light-mode #swup {
     background-image: url('/assets/images/light4_greatwall2_blur_15px.png') !important;
     background-size: cover;
@@ -48,7 +42,7 @@ body.light-mode #swup {
     background-attachment: fixed;
 }
 
-/* 深色模式 */
+/* dark mode */
 body.dark-mode #swup {
     background-image: url('/assets/images/dark1_blur_15px.jpg') !important;
     background-size: cover;
@@ -57,7 +51,7 @@ body.dark-mode #swup {
     background-attachment: fixed;
 }
 
-/* 右键菜单 */
+/* RIGHT MOUSE BUTTON (RMB) MENU */
 #RMBMenu {
     z-index: 9999;
     background-color: var(--background-color);
@@ -70,7 +64,7 @@ body.dark-mode #swup {
 }
 
 
-/* 历史上的今天 */
+/* HISTORY TODAY */
 body.light-mode .ht-list-item {
     border-bottom: 1px solid #aaa;
 }
@@ -87,6 +81,7 @@ body.dark-mode .ht-list-item {
     justify-content: flex-start !important;
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
+    scrollbar-width: none;
 }
 
 .announcement-outside::-webkit-scrollbar {
@@ -94,7 +89,7 @@ body.dark-mode .ht-list-item {
 }
 
 
-/* 边缘渐隐 */
+/* EDGE FADE */
 body.light-mode .up-down-edge-fade {
     -webkit-mask-image: linear-gradient(
     to bottom,
@@ -163,27 +158,18 @@ body.dark-mode .left-right-edge-fade {
     );
 }
 
-/* 百宝箱 */
+/* TREASURE BOX BACKGROUND BLUR */
 .p-5 {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
 
-/* APlayer歌词 */
+/* APLAYER LYRICS */
 .aplayer .aplayer-lrc p {
     font-size: 1.25rem !important;
 }
 
-/* notyf消息框 */
-.notyf__toast.notyf__toast--upper {
-    margin-top: 70px;
-}
-
-.notyf__wrapper {
-    width: 300px;
-}
-
-/* CSS变量 */
+/* CSS VARIABLES */
 :root {
     --up-down-edge-fade-region: 5rem;
     --left-right-edge-fade-region: 5rem;
