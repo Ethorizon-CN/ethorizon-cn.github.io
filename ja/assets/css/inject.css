@@ -1,0 +1,178 @@
+/* GLOBAL */
+/* custom font */
+* {
+    font-family: "TencentSans", serif;
+}
+
+.code * {
+    font-family: "Hack", "Geist Mono", Courier, monospace !important;
+}
+
+/* transition(except preloader, odometer, del block & mobile drawer) */
+*:not(.letter, .odometer.odometer-auto-theme *, del.mask, .flex-col.items-start.px-2.py-2 *) {
+    transition: all 0.3s ease !important;
+}
+
+
+/* preloader region */
+.ml13 * {
+    font-weight: bold !important;
+    justify-content: center !important;
+}
+
+
+/* SCROLLBAR */
+/* hide the scrollbar of body & html */
+body::-webkit-scrollbar, html::-webkit-scrollbar {
+    width: 0px !important;
+}
+
+body, html {
+    scrollbar-width: none;
+    /* Invalidate the right padding when executed swal.fire(); */
+    padding-right: none !important;
+}
+
+
+/* CUSTOM BACKGROUND IMAGES */
+/* light mode */
+body.light-mode #swup {
+    background-image: url('/assets/images/light4_greatwall2_blur_15px.png') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* dark mode */
+body.dark-mode #swup {
+    background-image: url('/assets/images/dark1_blur_15px.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* RIGHT MOUSE BUTTON (RMB) MENU */
+#RMBMenu {
+    z-index: 9999;
+    background-color: var(--background-color);
+    justify-content: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 10px !important;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+
+/* HISTORY TODAY */
+body.light-mode .ht-list-item {
+    border-bottom: 1px solid #aaa;
+}
+
+body.dark-mode .ht-list-item {
+    border-bottom: 1px solid #555;
+}
+
+.announcement-outside {
+    flex-direction: column;
+    overflow-y: scroll;
+    overscroll-behavior: contain;
+    max-height: 50vh;
+    justify-content: flex-start !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    scrollbar-width: none;
+}
+
+.announcement-outside::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+/* EDGE FADE */
+body.light-mode .up-down-edge-fade {
+    -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    white var(--up-down-edge-fade-region),
+    white calc(100% - var(--up-down-edge-fade-region)),
+    transparent 100%
+    );
+    mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    white var(--up-down-edge-fade-region),
+    white calc(100% - var(--up-down-edge-fade-region)),
+    transparent 100%
+    );
+}
+
+body.dark-mode .up-down-edge-fade {
+    -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    black var(--up-down-edge-fade-region),
+    black calc(100% - var(--up-down-edge-fade-region)),
+    transparent 100%
+    );
+    mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    black var(--up-down-edge-fade-region),
+    black calc(100% - var(--up-down-edge-fade-region)),
+    transparent 100%
+    );
+}
+
+body.light-mode .left-right-edge-fade {
+    -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    white var(--left-right-edge-fade-region),
+    white calc(100% - var(--left-right-edge-fade-region)),
+    transparent 100%
+    );
+    mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    white var(--left-right-edge-fade-region),
+    white calc(100% - var(--left-right-edge-fade-region)),
+    transparent 100%
+    );
+}
+
+body.dark-mode .left-right-edge-fade {
+    -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black var(--left-right-edge-fade-region),
+    black calc(100% - var(--left-right-edge-fade-region)),
+    transparent 100%
+    );
+    mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black var(--left-right-edge-fade-region),
+    black calc(100% - var(--left-right-edge-fade-region)),
+    transparent 100%
+    );
+}
+
+/* TREASURE BOX BACKGROUND BLUR */
+.p-5 {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+/* APLAYER LYRICS */
+.aplayer .aplayer-lrc p {
+    font-size: 1.25rem !important;
+}
+
+/* CSS VARIABLES */
+:root {
+    --up-down-edge-fade-region: 5rem;
+    --left-right-edge-fade-region: 5rem;
+}
