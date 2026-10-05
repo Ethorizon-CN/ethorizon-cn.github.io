@@ -105,37 +105,39 @@ if (!window.loadCount) {
         if (!window.htContent) {
             console.log('[History Today]Data does not exist, fetching.');
             window.htContent = fetch('https://tmini.net/api/today?type=json')
-            .then(r => r.json())
+            .then(r => {
+                if (r.ok) {
+                    return r.json();
+                } else throw new Error(`[History Today]Data fetching failed with HTTP ${r.status} .`);
+            })
             .catch((err) => {
                 console.error('[History Today]Data fetching failed: ' , err);
                 throw err;
             })
         }
-        (async function() {
-            window.htContent.then(({ code, date, events }) => {
-                if (code !== 200) {
-                    console.error('[History Today]Data fetching failed with code ' + code + '.');
-                } else {
-                    const escapeHTML = (str) => String(str ?? '')
-                        .replace(/&/g, '&amp;')
-                        .replace(/</g, '&lt;')
-                        .replace(/>/g, '&gt;')
-                        .replace(/"/g, '&quot;')
-                        .replace(/'/g, '&#39;');
-                    console.log('[History Today]Data fetched successfully.');
-                    htToday.innerHTML = '<small>(' + escapeHTML(date) + ')</small>';
-                    htList.innerHTML = events.map(e => `
-                    <div class="ht-list-item">
-                        <a href="${escapeHTML(e.link)}" target="_blank" title="点击跳转百度百科条目">
-                        <b>${escapeHTML(e.year)}年</b> - ${escapeHTML(e.title)}<br>
-                        </a>
-                        <small>${escapeHTML(e.desc).slice(0, 50)}...</small><br>
-                    </div>
-                    `).join('');
-                    const htListItem = document.getElementsByClassName('ht-list-item');
-                    if(htListItem.length >= 1) htListItem[htListItem.length - 1].style.borderBottom = 'none';
-                }
-            })
+        window.htContent.then(({ code, date, events }) => {
+            if (code !== 200) {
+                console.error('[History Today]Data fetching failed with code ' + code + '.');
+            } else {
+                const escapeHTML = (str) => String(str ?? '')
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;');
+                console.log('[History Today]Data fetched successfully.');
+                htToday.innerHTML = '<small>(' + escapeHTML(date) + ')</small>';
+                htList.innerHTML = events.map(e => `
+                <div class="ht-list-item">
+                    <a href="${escapeHTML(e.link)}" target="_blank" rel="noopener noreferrer" title="点击跳转百度百科条目">
+                    <b>${escapeHTML(e.year)}年</b> - ${escapeHTML(e.title)}<br>
+                    </a>
+                    <small>${escapeHTML(e.desc).slice(0, 50)}...</small><br>
+                </div>
+                `).join('');
+                const htListItem = document.getElementsByClassName('ht-list-item');
+                if(htListItem.length >= 1) htListItem[htListItem.length - 1].style.borderBottom = 'none';
+            }
         })
     }
 })();

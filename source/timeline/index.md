@@ -16,13 +16,13 @@ updated: "2026-08-22T21:17:17.799+08:00"
   <!-- tab 大事年表 -->
 
   <div id="blogChronicleTimeline">
-    <el-timeline>
+    <el-timeline mode="alternate">
       <el-timeline-item 
       v-for="(activity, i) in activities"
       :key="i"
       :timestamp="activity.timestamp"
       placement="top"
-      center="true">
+      center>
         <span v-text="activity.content" style="color: var(--first-text-color);"></span>
       </el-timeline-item>
     </el-timeline>
@@ -36,7 +36,7 @@ updated: "2026-08-22T21:17:17.799+08:00"
 
 {% endtabs %}
 
-<script>
+<script data-swup-reload-script>
   const { createApp, ref } = Vue;
   const blogChronicleTimeline = createApp({
     setup() {
