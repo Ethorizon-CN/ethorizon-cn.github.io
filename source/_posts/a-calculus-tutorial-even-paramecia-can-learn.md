@@ -1,15 +1,11 @@
 ---
 abbrlink: ''
-categories:
-- 学科
+categories: ['学科']
 date: '2026-07-17T14:08:08+08:00'
 lang: zh-CN
 mathjax: true
 sticky: 9
-tags:
-- 高等数学
-- 微积分
-- 教程
+tags: ['高等数学', '微积分', '教程']
 title: 草履虫也能学会的微积分教程！
 updated: '2026-10-01T17:20:37.815+08:00'
 ---
