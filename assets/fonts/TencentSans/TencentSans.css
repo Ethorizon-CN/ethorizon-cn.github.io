@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "TencentSans";
+    src: local("TencentSans"),
+    url("TencentSansW3.otf") format("opentype");
+    font-weight: 200 450;
+    font-display: block;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TencentSans";
+    src: local("TencentSans"),
+    url("TencentSansW7.woff2") format("woff2");
+    font-weight: 451 700;
+    font-display: block;
+    font-style: normal;
+}
