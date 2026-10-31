@@ -1,6 +1,6 @@
 /* GLOBAL */
 /* custom font */
-* {
+*:not(.code *, .desmos-graph *) {
     font-family: "TencentSans", serif;
 }
 
@@ -9,7 +9,7 @@
 }
 
 /* transition(except preloader, odometer, del block & mobile drawer) */
-*:not(.letter, .odometer.odometer-auto-theme *, del.mask, .flex-col.items-start.px-2.py-2 *) {
+*:not(.letter, .odometer.odometer-auto-theme *, del.mask, .flex-col.items-start.px-2.py-2 *, .desmos-graph *) {
     transition: all 0.3s ease !important;
 }
 

@@ -446,6 +446,7 @@ inject:
       <!-- <script src="https://clipboard.nodejs.cn/clipboard.min.js"></script> -->
       <script src="https://cdn.jsdelivr.net/npm/toastr-next@3.0.6/dist/toastr-next.umd.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://www.desmos.com/api/v1.12/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 
       <!-- inject-head -->
       <script src="/assets/js/inject-head.js"></script>

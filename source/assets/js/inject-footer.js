@@ -9,12 +9,13 @@ if (!window.loadCount) {
 }
 
 
-// first-load notification
+// first-load notification and after-preloader contents
 (function() {
     const preloaderCharacterCount = theme.global.preloader.custom_message.length;
     const preloaderAnimationDelay = 2500 + 35*preloaderCharacterCount;
     if (window.loadCount === 1) {
         setTimeout(() => {
+            // first-load notification
             ElementPlus.ElNotification({
             message:"<strong>欢迎来到 EtherformTM 的个人博客！</strong><br>Powered by Hexo & Redefine.",
             position:"top-right",
@@ -22,6 +23,25 @@ if (!window.loadCount) {
             duration: 2000,
             dangerouslyUseHTMLString: true
             });
+            // // after-preloader contents
+            // const main = document.querySelector('main');
+            // main.style.transform = 'perspective(100px) rotateX(90deg)';
+            // main.style.transformOrigin = '50% 100vh';
+            // let start, previousTimestamp;
+            // let done = false;
+            // const animationDuration = 2000;
+            // window.requestAnimationFrame((timestamp) => {
+            //     if (start === undefined) start = timestamp;
+            //     const elapsed = timestamp - start;
+            //     if (previousTimestamp !== timestamp) {
+            //         const count = Math.min((animationDuration / 90) * elapsed, 0);
+            //         main.style.transform = `perspective(100px) rotateX(${count}deg)`;
+            //         if (count === 0) done = true;
+            //     }
+            //     if (elapsed < animationDuration) {
+            //         previousTimestamp = timestamp;
+            //     }
+            // });
         }, preloaderAnimationDelay);
     }
 })();
@@ -162,4 +182,24 @@ if (!window.loadCount) {
         swup.navigate(`/${lang}${trimURL(currentURL)}`);
         }
     };
+})();
+
+// init desmos
+(function () {
+    document.querySelectorAll('.desmos-graph').forEach(el => {
+        const graph = Desmos.GraphingCalculator(el, {
+            expressions: true,
+            settingsMenu: false,
+            keypad: false,
+        });
+        el.style.width = el.getAttribute('width') || '100%';
+        el.style.height = el.getAttribute('height') || '60vh';
+        const data = el.getAttribute('data-latex');
+        if (data) {
+            data.split(';').forEach(item => {
+                const trimmedItem = item.trim();
+                graph.setExpression({ id: trimmedItem.toString(), latex: trimmedItem });
+            })
+        }
+    })
 })();
