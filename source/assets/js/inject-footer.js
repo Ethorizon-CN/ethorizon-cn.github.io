@@ -2,11 +2,8 @@
 
 
 // load count
-if (!window.loadCount) {
-    window.loadCount = 1;
-} else {
-    window.loadCount ++;
-}
+if (!window.loadCount) window.loadCount = 1;
+else window.loadCount ++;
 
 
 // first-load notification and after-preloader contents

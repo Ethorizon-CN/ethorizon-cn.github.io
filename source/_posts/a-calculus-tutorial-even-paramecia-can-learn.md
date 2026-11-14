@@ -47,11 +47,30 @@ updated: '2026-10-01T17:20:37.815+08:00'
 
 本文发出来大概是国庆节了~~有没有鸽另说（）~~。你坐在放假回家的车上，发现车的s-t图如下：
 
-（因为手边不太方便而免费了的Demos  API图表）
+<div class="desmos-graph" data-latex="
+   s_{OA}=\frac{1}{2}t^2\left\{0\le{t}<10\right\};
+   s_{AB}=7t-45\left\{10\le{t}<15\right\};
+   s_{BC}=60\left\{15\le{t}<20\right\};
+   O=(0,0);
+   A=(10,25);
+   B=(15,60);
+   C=(20,60)
+"></div>
 
+（不知道为什么 $s_{OA}$ 和 $s_{AB}$ 之间的连接没凑好，懒得改了凑合着讲吧（））
 你还顺手画了张v-t图：
 
-（因为手边不太方便而免费了的Demos  API图表 x2）
+<div class="desmos-graph" data-latex="
+   v_{OD}=\frac{1}{2}t\left\{0\le{t}<10\right\};
+   v_{EF}=7\left\{10\le{t}<15\right\};
+   v_{GH}=0\left\{15\le{t}<20\right\};
+   O=(0,0);
+   D=(10,5);
+   E=(10,7);
+   F=(15,7);
+   G=(15,0);
+   H=(20,0)
+"></div>
 
 现在，请你遮住s-t图，只看v-t图，思考：
 
