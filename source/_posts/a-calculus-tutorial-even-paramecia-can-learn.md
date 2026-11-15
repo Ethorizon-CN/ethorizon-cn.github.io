@@ -110,7 +110,7 @@ s_{OD}=S_{\triangle{OID}}=OI\cdot{ID}\cdot{\frac{1}{2}}=10\times{5}\times{\frac{
 $$
 
 $$
-\bar{v}_{OD}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}=\frac{s_{OD}}{t_{OD}}=\frac{25}{10}=2.5\space{.}
+{\bar{v}}_{OD}=\frac{s_{OD}}{t_{OD}}=\frac{25}{10}=2.5\space{.}
 $$
 
 可是现实情况往往更复杂：如果连速度的图象都是曲线，要如何求出这一段的路程？
