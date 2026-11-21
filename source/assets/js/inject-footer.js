@@ -20,26 +20,26 @@ else window.loadCount ++;
             duration: 2000,
             dangerouslyUseHTMLString: true
             });
-            // // after-preloader contents
-            // const main = document.querySelector('main');
-            // main.style.transform = 'perspective(100px) rotateX(90deg)';
-            // main.style.transformOrigin = '50% 100vh';
-            // let start, previousTimestamp;
-            // let done = false;
-            // const animationDuration = 2000;
-            // window.requestAnimationFrame((timestamp) => {
-            //     if (start === undefined) start = timestamp;
-            //     const elapsed = timestamp - start;
-            //     if (previousTimestamp !== timestamp) {
-            //         const count = Math.min((animationDuration / 90) * elapsed, 0);
-            //         main.style.transform = `perspective(100px) rotateX(${count}deg)`;
-            //         if (count === 0) done = true;
-            //     }
-            //     if (elapsed < animationDuration) {
-            //         previousTimestamp = timestamp;
-            //     }
-            // });
         }, preloaderAnimationDelay);
+        // setTimeout(() => {
+        //     // after-preloader contents
+        //     const main = document.querySelector('main');
+        //     main.style.transform = 'perspective(50px) rotateX(90deg)';
+        //     main.style.transformOrigin = '50% 100vh';
+        //     let start;
+        //     let done = false;
+        //     const animationDuration = 1000;
+        //     function animate(timestamp) {
+        //     if (start === undefined) start = timestamp;
+        //     const elapsed = timestamp - start;
+        //     const progress = Math.min(elapsed / animationDuration, 1);
+        //     const count = 90 * (1 - progress);
+        //     main.style.transform = `perspective(50px) rotateX(${count}deg)`;
+        //     if (progress < 1) requestAnimationFrame(animate);
+        //     else done = true;
+        //     }
+        //     requestAnimationFrame(animate);
+        // }, preloaderAnimationDelay - 1500);
     }
 })();
 
